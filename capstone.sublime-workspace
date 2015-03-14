@@ -1,0 +1,1267 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"studentlab"
+			],
+			[
+				"C",
+				"curdate"
+			],
+			[
+				"iss",
+				"iss_date"
+			],
+			[
+				"VI",
+				"VIEW1"
+			],
+			[
+				"cas",
+				"cassette"
+			],
+			[
+				"IN",
+				"INTO"
+			],
+			[
+				"V",
+				"VALUES"
+			],
+			[
+				"g",
+				"Gender"
+			],
+			[
+				"j",
+				"js"
+			],
+			[
+				"e",
+				"equals"
+			],
+			[
+				"to",
+				"toUpper"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"cl",
+				"cl	class"
+			],
+			[
+				"p",
+				"public"
+			],
+			[
+				"pr",
+				"println	System_println"
+			],
+			[
+				"pa",
+				"payroll"
+			],
+			[
+				"em",
+				"employee"
+			],
+			[
+				"DE",
+				"department"
+			],
+			[
+				"me",
+				"mem_no"
+			],
+			[
+				"mem",
+				"membership"
+			],
+			[
+				"book",
+				"book_no"
+			],
+			[
+				"b",
+				"bombs"
+			],
+			[
+				"N",
+				"N-1"
+			],
+			[
+				"cou",
+				"cout	cout"
+			],
+			[
+				"con",
+				"convert"
+			],
+			[
+				"Sum",
+				"sum1"
+			],
+			[
+				"m",
+				"maxTip"
+			],
+			[
+				"pri",
+				"printf	printf …"
+			],
+			[
+				"be",
+				"begin"
+			],
+			[
+				"siz",
+				"size_B"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"ma",
+				"main	main()"
+			],
+			[
+				"bin",
+				"bintohexa"
+			],
+			[
+				"hexa",
+				"hexatobin"
+			],
+			[
+				"cha",
+				"charAccfreq"
+			],
+			[
+				"inv",
+				"inv_mul"
+			],
+			[
+				"pair",
+				"pairCompare"
+			],
+			[
+				"map",
+				"mapIndex"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"ex",
+				"expr"
+			],
+			[
+				"ra",
+				"randomArray"
+			],
+			[
+				"en",
+				"encrypt"
+			],
+			[
+				"de",
+				"deleteBST"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"lef",
+				"lefttoright"
+			],
+			[
+				"min",
+				"minCoins"
+			],
+			[
+				"max",
+				"maxsumLevel"
+			],
+			[
+				"le",
+				"level"
+			],
+			[
+				"print",
+				"printArray	printArray"
+			],
+			[
+				"c",
+				"cout	cout"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"re",
+				"reverse"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"v",
+				"void"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"h",
+				"head"
+			],
+			[
+				"c_",
+				"c_door"
+			],
+			[
+				"for",
+				"for_	For Loop"
+			],
+			[
+				"rer",
+				"return"
+			],
+			[
+				"prin",
+				"printArray	printArray"
+			],
+			[
+				"merge",
+				"Merge"
+			],
+			[
+				"php",
+				"phpinfo()"
+			],
+			[
+				"t",
+				"table	Tag"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bo",
+				"border"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/Capstone/Capstone2/dummy/bottdummy.html",
+			"settings":
+			{
+				"buffer_size": 9367,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "show.php",
+			"settings":
+			{
+				"buffer_size": 582,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "registration.php",
+			"settings":
+			{
+				"buffer_size": 10642,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.php",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "capstone.sublime-project",
+			"settings":
+			{
+				"buffer_size": 154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tmp/createdb.sql",
+			"settings":
+			{
+				"buffer_size": 1510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "target.php",
+			"settings":
+			{
+				"buffer_size": 705,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "mysqldump -u root -p '' capstone > acadmey.sql",
+			"file": "tmp/createdump.sql",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Windows",
+				"name": "mysqldump -u root -p '' capstone > new.sql"
+			}
+		}
+	],
+	"build_system": "Packages/Java/JavaC.sublime-build",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"set jav",
+				"Set Syntax: Java"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"",
+				"ANF: Delete Current File"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"syn c",
+				"Set Syntax: C"
+			],
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"copy",
+				"ANF: Copy Current File"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"arc",
+				"Tasks: Archive"
+			],
+			[
+				"tnd",
+				"Tasks: New document"
+			],
+			[
+				"tsk",
+				"Tasks: Archive"
+			],
+			[
+				"tasks",
+				"Tasks: Complete"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"LA",
+				"Set Syntax: LaTeX Beamer"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"lisp",
+				"Set Syntax: Lisp"
+			],
+			[
+				"set ",
+				"Set Syntax: C"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			],
+			[
+				"Package Contr",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pac",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			],
+			[
+				"to",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"set c++",
+				"Set Syntax: C++"
+			],
+			[
+				":w ",
+				":w - Save"
+			],
+			[
+				":11",
+				"Snippet: $1.begin(), $1.end()"
+			],
+			[
+				"set c",
+				"Set Syntax: C"
+			],
+			[
+				"git ",
+				"Git: Diff"
+			],
+			[
+				"gir",
+				"Git: Diff Current File"
+			],
+			[
+				"set synt j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git sat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Diff"
+			],
+			[
+				"SYntax:C++",
+				"Set Syntax: C++"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git diff ",
+				"Git: Diff Current File"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"git s",
+				"Git: Commit history"
+			],
+			[
+				"Snippet: ios",
+				"Snippet: #include_iostream>"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"run",
+				"Build: Run"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Capstone/Capstone2/web0",
+		"/D/Capstone/Capstone2/web0/tmp"
+	],
+	"file_history":
+	[
+		"/E/web0/tmp/createdb.sql",
+		"/E/web0/config.php",
+		"/D/Capstone/Capstone2/web0/tmp/createdb.sql",
+		"/D/8sem/ADBM/q4.sql",
+		"/D/8sem/ADBM/question3.sql",
+		"/D/Capstone/Capstone2/web0/tmp/showhidescript.js",
+		"/D/Capstone/Capstone2/pranav/target.php",
+		"/D/Capstone/Capstone2/web0/target.php",
+		"/D/8sem/ADBM/question5.sql",
+		"/C/Users/hp/Documents/Unnamed Site 2/registration.php",
+		"/D/Capstone/Capstone2/dummy/Navbar Template for Bootstrap.html",
+		"/D/Capstone/Capstone2/web0/registration.php",
+		"/D/Capstone/Capstone2/dummy/Theme Template for Bootstrap.html",
+		"/C/Users/hp/Documents/Unnamed Site 2/SpryAssets/SpryValidationTextField.js",
+		"/C/Users/hp/Documents/Unnamed Site 2/SpryAssets/SpryValidationTextField.css",
+		"/D/8sem/WebTech/LAB/LAB1/MyStack.java",
+		"/D/8sem/WebTech/LAB/LAB1/UseMyQueue.java",
+		"/D/8sem/WebTech/LAB/LAB1/MyQueue.java",
+		"/D/8sem/WebTech/LAB/LAB1/Armstrong.java",
+		"/D/8sem/WebTech/LAB/TEMP/MyStack.java",
+		"/D/8sem/WebTech/LAB/Stack.java",
+		"/D/8sem/WebTech/LAB/TEMP/Mystack.java",
+		"/D/8sem/WebTech/LAB1/Prime.java",
+		"/D/8sem/WebTech/Javalab.sublime-project",
+		"/D/8sem/WebTech/LAB1/Armstrong.java",
+		"/D/8sem/WebTech/LAB1/UseAccount.java",
+		"/D/8sem/WebTech/LAB1/UseMyString.java",
+		"/D/8sem/WebTech/LAB1/UseBook.java",
+		"/D/8sem/WebTech/LAB1/Institute.java",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/Institute.java",
+		"/D/8sem/WebTech/LAB1/UseComplex.java",
+		"/D/8sem/WebTech/LAB1/MyQueue.java",
+		"/D/8sem/WebTech/LAB1/UseMyStack.java",
+		"/D/8sem/WebTech/LAB1/UseMyQueue.java",
+		"/D/8sem/WebTech/LAB1/MyStack.java",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/[cmd",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/Java/class_main.sublime-snippet",
+		"/D/8sem/WebTech/LAB1/  symbol",
+		"/D/8sem/WebTech/JavaLab.sublime-project",
+		"/D/8sem/WebTech/JavaLab.sublime-workspace",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/BIT/ASSG2/Q12.java",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Settings/Session.sublime_session",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
+		"/D/prog c/Comprog/CodeChef/MINDSWEEPER/ALOKKING.cpp",
+		"/D/prog c/Comprog/SPOJ/Prime1.cpp",
+		"/D/prog c/Comprog/CodeChef/temp.cpp",
+		"/D/prog c/Comprog/CodeChef/KRKS2015/K15D.cpp",
+		"/D/membership.sql",
+		"/D/prog c/Comprog/SPOJ/Prime12.cpp",
+		"/D/prog c/Comprog/CodeChef/December Lunchtime 2014/TADELIVE.cpp",
+		"/D/prog c/Comprog/CodeChef/December Lunchtime 2014/TASTRMAT.cpp",
+		"/C/Users/hp/Downloads/LOP/League of Programmers.html",
+		"/D/prog c/Comprog/CodeChef/JAN15/SEAVOTE.cpp",
+		"/D/prog c/Comprog/CodeChef/JAN15/ONEKING.cpp",
+		"/D/prog c/Comprog/CodeChef/JAN15/N)",
+		"/D/prog c/Comprog/CodeChef/JAN15/GCDQ.cpp",
+		"/D/todo.TODO",
+		"/D/prog c/Comprog/CodeChef/JAN15/CHEFSTON.cpp",
+		"/D/prog c/Comprog/NOTES.todo",
+		"/D/prog c/Comprog/CodeChef/JAN15/QSET.cpp",
+		"/D/Sublime/sample.todo",
+		"/D/prog c/Comprog/fast_i_o.cpp",
+		"/D/prog c/Comprog/CodeChef/JAN15/GCDQ_.fastcpp",
+		"/c/mingw/include/stdio.h",
+		"/D/prog c/Comprog/CodeChef/CHEFSTON.cpp",
+		"/D/prog c/Comprog/CodeChef/JAN15/QSET_bruteforce.cpp",
+		"/D/prog c/Codechef/temp.cpp",
+		"/D/prog c/Comprog/CodeChef/ANUUND3.cpp",
+		"/D/prog c/Comprog/CodeChef/Codechef.sublime-project",
+		"/D/prog c/hammingDistance.cpp",
+		"/D/prog c/Codechef/ANUUND.cpp",
+		"/D/prog c/Comprog/CodeChef/ANUUND2.cpp",
+		"/C/Users/hp/Downloads/Question",
+		"/D/prog c/SPOJ/NOTES.todo",
+		"/D/prog c/Codechef/December Lunchtime 2014/TADELIVE.cpp",
+		"/D/prog c/HTML/HTML.html",
+		"/D/prog c/SPOJ/baseconversion.cpp",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/C++/C++.sublime-build",
+		"/D/prog c/binarystringTint.cpp",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/PlainTasks/messages/Tutorial.todo",
+		"/D/c/dynamicProgg/changeMakingProb.cpp",
+		"/D/c/dynamicProgg/ANARC05H.cpp",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Profiler.sublime-build",
+		"/D/prog c/CodeChef/Codechef.sublime-project",
+		"/D/prog c/SPOJ/GAMES.cpp",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/spoj.sublime-snippet",
+		"/D/prog c/SPOJ/SPOJ.sublime-project",
+		"/C/MinGW/lib/gcc/mingw32/4.7.1/include/c++/mingw32/bits/stdc++.h",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/C++ 2.sublime-build",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/he3.cpp",
+		"/D/prog c/SPOJ/he1.cpp",
+		"/D/prog c/SPOJ/he2.cpp",
+		"/D/prog c/SPOJ/ACPC10A.cpp",
+		"/D/7sem/ISS/iss/6_4.columnarcipher.cpp",
+		"/D/prog c/SPOJ/NSTEPS.cpp",
+		"/D/prog c/SPOJ/TOANDFRO.cpp",
+		"/D/SAMER08F.cpp",
+		"/D/c/README",
+		"/D/c/usingSET.cpp",
+		"/D/c/usingPair.cpp",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/AdvancedNewFile.sublime-settings",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/D/prog c/SPOJ/PRIME1.py",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/ncr.sublime-snippet",
+		"/D/prog c/SPOJ/Prime_sieveofEros.cpp",
+		"/D/prog c/SPOJ/Prime12.cpp",
+		"/D/c/primes.h",
+		"/D/prog c/SPOJ/ONP.cpp",
+		"/D/prog c/SPOJ/Sphere Online Judge (SPOJ) - Problems.pdf",
+		"/D/temp.cpp",
+		"/D/c/dynamicProgg/README",
+		"/D/prog c/SPOJ/FCTRL.py",
+		"/D/prog c/SPOJ/FCTRL2.py",
+		"/D/Sublime/SPOJ.sublime-project",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/C++ 3.sublime-build",
+		"/D/c/usingVector.cpp",
+		"/D/LATEX/tutorial/Format1.tex",
+		"/D/style.css",
+		"/D/temp/style.css"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"capstone",
+			"ACADEMY",
+			"trainingGroup",
+			"any",
+			"Center",
+			"am",
+			"-",
+			"visible=\"false\"",
+			"hide",
+			"fales",
+			"uname",
+			"from",
+			"select",
+			"Tuesday",
+			"Monday",
+			"res1",
+			"class1",
+			"student2",
+			"table",
+			"create",
+			"insert",
+			"from",
+			"where",
+			"from",
+			"	(1, '2014-12-11'),\n	(2, '2014-10-15'),\n	(3, '2015-01-14'),\n	(4, '2013-09-26'),\n	(5, '2014-03-22'),\n	(6, '2014-12-29'),\n	(7, '2014-01-01'),\n	(8, '2015-02-15'),\n	(9, '2015-02-04'),\n	(10, '2014-08-01');\n",
+			"),",
+			"01",
+			"(",
+			")",
+			"),",
+			"(",
+			"iss_rec1",
+			"cust_id",
+			"netsalary",
+			"703",
+			"704",
+			"701",
+			"im1",
+			"yiqimg",
+			"YIQ",
+			"Im",
+			"pm",
+			"3-4",
+			"etimings",
+			"mtimings",
+			"4-5",
+			"3-4",
+			"trainingGroup",
+			"age",
+			"dob",
+			"Gendergroup",
+			"Private",
+			"=\"",
+			"inlineRadio1",
+			"id",
+			"uname",
+			">",
+			"\"Gro",
+			"value",
+			"inlineRadioOptions",
+			"fname",
+			"uname",
+			"inputEmail3",
+			"col-sm-10",
+			"              </",
+			"legend",
+			"http",
+			"http://getbootstrap.com/dist/",
+			"div class=\"control-group",
+			"Sum",
+			"data",
+			"Stack",
+			"Typist",
+			"ip",
+			"c.",
+			"ip",
+			"private",
+			"String",
+			"float",
+			"ctrl+d",
+			"ctrl+",
+			"+D",
+			"D",
+			"close",
+			"ctrl+k",
+			"ctrl+b",
+			"System",
+			"java",
+			"spa",
+			"work",
+			"(",
+			"),",
+			"(",
+			";",
+			"cout",
+			"val",
+			"a",
+			"slides",
+			"B",
+			"recur",
+			",N",
+			"int val",
+			"1000",
+			"fill",
+			"y",
+			"x",
+			"first",
+			"unsigned",
+			"PRE",
+			" (",
+			"Index",
+			"Input",
+			"Len",
+			"v",
+			"i",
+			"cin>>",
+			"->",
+			".start",
+			"Interval",
+			"printf",
+			"a",
+			"getc_unlocked",
+			"%3",
+			"long",
+			"arr",
+			"long long",
+			"int",
+			"p(N);"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/Capstone/Capstone2/dummy/bottdummy.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3210,
+								3210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "show.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "registration.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9610,
+								9328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1820.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								95
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "capstone.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "tmp/createdb.sql",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "target.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								382,
+								382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "tmp/createdump.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mysqldump -u root -p '' capstone > new.sql",
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 118.0
+	},
+	"output.git-commit":
+	{
+		"height": 118.0
+	},
+	"project": "capstone.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tem",
+				"temp.cpp"
+			],
+			[
+				"tas",
+				"December Lunchtime 2014/TASTRMAT.cpp"
+			],
+			[
+				"",
+				"/D/prog c/dump.cpp"
+			],
+			[
+				"i",
+				"/D/c/itworks.cpp"
+			],
+			[
+				"a",
+				"/D/c/arrayutil.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
