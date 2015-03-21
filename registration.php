@@ -1,19 +1,12 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<?php include('/includes/header.php') ?>
 <title>Registration Page</title>
-</head>
 <body>
   
   <!-- <button type="button " class="btn btn-primary">CLICK</button> -->
   <div class="container">
 
     <!-- Static navbar -->
-    <nav class="navbar navbar-default">
+    <!-- <nav class="navbar navbar-default">
       <div class="container-fluname">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -47,9 +40,9 @@
             <li><a href="#">Student</a></li>
             <li><a href="#">Admin</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
-      </div><!--/.container-fluid -->
-    </nav>
+        </div> 
+      </div>  
+    </nav> -->
 
       <!-- Body -->
     <div class="panel panel-default">
@@ -84,13 +77,14 @@
             </div>
           </div>
 
-          <div class="form-group">
+          <!-- <div class="form-group">
              <label for="age" class="col-sm-2 control-label">Age</label>        
              <div class="col-sm-5">
               <input type="number" class="form-control" name="age" placeholder="in years" >
             </div>
           </div>
-
+          -->
+          
           <div class="form-group">
              <label for="weight" class="col-sm-2 control-label">Weight</label>        
              <div class="col-sm-5">
@@ -107,9 +101,16 @@
           </div>
 
           <div class="form-group">
-             <label for="fname" class="col-sm-2 control-label">Fathers Name</label>        
+             <label for="fname" class="col-sm-2 control-label">Father's Name</label>        
              <div class="col-sm-5">
-              <input type="text" class="form-control" name="fname" placeholder="Fathers Name">
+              <input type="text" class="form-control" name="fname" placeholder="Father's Name">
+            </div>
+          </div>
+
+          <div class="form-group">
+             <label for="mname" class="col-sm-2 control-label">Mother's Name</label>        
+             <div class="col-sm-5">
+              <input type="text" class="form-control" name="mname" placeholder="Mothers Name">
             </div>
           </div>
 
@@ -139,11 +140,11 @@
              <label for="Center" class="col-sm-2 control-label">Center</label>        
               <div class="col-sm-5">
                 <select class="form-control" name= "center">
-                  <option>Bhiwani</option>
-                  <option>Rhotak</option>
-                  <option>Sonipat</option>
-                  <option>Chandigarh</option>
-                  <option>Patiala</option>
+                  <option value="01">Sarabha Nagar</option>
+                  <option value="02">Khalsa College</option>
+                  <option value="03">BCM college</option>
+                  <option value="04">Govt. College</option>
+                  <option value="05">Sports College</option>
                 </select>
               </div>
           </div>
@@ -153,12 +154,12 @@
              <label for="Sports" class="col-sm-2 control-label">Sports</label>        
               <div class="col-sm-5">
                 <select class="form-control" name= "sports">
-                  <option>Tennis</option>
-                  <option>Badminton</option>
-                  <option>Cricket</option>
-                  <option>Football</option>
-                  <option>Table Tennis</option>
-                  <option>Martial Arts</option>
+                  <option value="01">Badminton</option>
+                  <option value="02">Cricket</option>
+                  <option value="03">Football</option>
+                  <option value="04">Martial Arts</option>
+                  <option value="05">Table Tennis</option>
+                  <option value="06">Tennis</option>
                 </select>
               </div>
           </div>
@@ -271,4 +272,4 @@
   </script>
 
 </body>
-</html>
+<?php include('/includes/footer.php') ?>

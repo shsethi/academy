@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"val",
+				"validate"
+			],
+			[
 				"s",
 				"studentlab"
 			],
@@ -284,80 +288,108 @@
 	"buffers":
 	[
 		{
-			"file": "/D/Capstone/Capstone2/dummy/bottdummy.html",
+			"file": "/D/Capstone/Capstone2/TODO",
 			"settings":
 			{
-				"buffer_size": 9367,
+				"buffer_size": 393,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "show.php",
+			"file": "/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 			"settings":
 			{
-				"buffer_size": 582,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "registration.php",
-			"settings":
-			{
-				"buffer_size": 10642,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config.php",
-			"settings":
-			{
-				"buffer_size": 95,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "capstone.sublime-project",
-			"settings":
-			{
-				"buffer_size": 154,
+				"buffer_size": 6048,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "tmp/createdb.sql",
+			"file": "login2.html",
 			"settings":
 			{
-				"buffer_size": 1510,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "target.php",
-			"settings":
-			{
-				"buffer_size": 705,
+				"buffer_size": 3681,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "mysqldump -u root -p '' capstone > acadmey.sql",
-			"file": "tmp/createdump.sql",
-			"file_size": -1,
-			"file_write_time": -1,
+			"file": "gridView.php",
 			"settings":
 			{
-				"buffer_size": 46,
-				"line_ending": "Windows",
-				"name": "mysqldump -u root -p '' capstone > new.sql"
+				"buffer_size": 2553,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "login.html",
+			"settings":
+			{
+				"buffer_size": 3568,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/loginpage.css",
+			"settings":
+			{
+				"buffer_size": 776,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/CHANGELOG.txt",
+			"settings":
+			{
+				"buffer_size": 13874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css",
+			"settings":
+			{
+				"buffer_size": 21202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/demogridView.html",
+			"settings":
+			{
+				"buffer_size": 2033,
+				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Packages/Java/JavaC.sublime-build",
+	"build_system": "Packages/C++/C++.sublime-build",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 288.0,
 		"selected_items":
 		[
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"htn",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"map",
+				"View: Toggle Minimap"
+			],
 			[
 				"php",
 				"Set Syntax: PHP"
@@ -397,10 +429,6 @@
 			[
 				"",
 				"ANF: Delete Current File"
-			],
-			[
-				"side",
-				"View: Toggle Side Bar"
 			],
 			[
 				"c++",
@@ -511,10 +539,6 @@
 				"Package Control: Discover Packages"
 			],
 			[
-				"pac",
-				"Package Control: Discover Packages"
-			],
-			[
 				"Package Control: l",
 				"Package Control: List Packages"
 			],
@@ -599,7 +623,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -619,23 +643,52 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Capstone/Capstone2/web0",
-		"/D/Capstone/Capstone2/web0/tmp"
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable/js"
 	],
 	"file_history":
 	[
+		"/D/Capstone/Capstone2/web0/userlogin.php",
+		"/D/Capstone/Capstone2/web0/js/login.js",
+		"/D/Capstone/Capstone2/web0/show.php",
+		"/D/Capstone/Capstone2/web0/css/loginpage.css",
+		"/D/Capstone/Capstone2/dummy/Theme Template for Bootstrap_files/docs.min.js",
+		"/D/Capstone/Capstone2/dummy/Components · Bootstrap_files/tweet_button.d8beb5db2b3f29fe16e117201cd7934a.en.html",
+		"/D/Capstone/Capstone2/web0/target.php",
+		"/D/Capstone/Capstone2/TODO",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/D/Capstone/Capstone2/web0/registration.php",
+		"/D/Capstone/Capstone2/dummy/Components · Bootstrap_files/www-embed-player.js",
+		"/D/Capstone/Capstone2/dummy/CSS · Bootstrap_files/ie-emulation-modes-warning.js",
+		"/D/Capstone/Capstone2/dummy/bottdummy.html",
+		"/D/8sem/Multimedia Lab/ASSG4 coding/RLE.cpp",
+		"/D/8sem/Multimedia Lab/ASSG4 coding/RunLengthEncoding.cpp",
+		"/D/8sem/Multimedia Lab/ASSG4 coding/lzwdecoding.cpp",
+		"/D/8sem/Multimedia Lab/ASSG4 coding/lzwEncoding.cpp",
+		"/D/8sem/Multimedia Lab/ASSG4 coding/HuffmanChanged.cpp",
+		"/D/prog c/C++/Avgstudent.cpp",
+		"/D/prog c/C++/student.cpp",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Capstone/Capstone2/dummy/JavaScript · Bootstrap_files/info.json",
+		"/D/Capstone/Capstone2/dummy/CSS · Bootstrap.html",
+		"/D/Capstone/Capstone2/dummy/Components · Bootstrap_files/4ezXf62z9_XNKMb_Gnmx9povhJeoFaiX0_3IfArKikg.js",
+		"/D/Capstone/Capstone2/web0/admin.html",
+		"/D/Capstone/Capstone2/web0/gridView.php",
+		"/D/Capstone/Capstone2/web0/index.html",
+		"/D/Capstone/Capstone2/web0/capstone.sublime-project",
+		"/D/Capstone/Capstone2/web0/tmp/createdb.sql",
+		"/D/Capstone/Capstone2/web0/tmp/createdump.sql",
+		"/D/Capstone/Capstone2/pranav/target.php",
+		"/D/Capstone/Capstone2/web0/config.php",
 		"/E/web0/tmp/createdb.sql",
 		"/E/web0/config.php",
-		"/D/Capstone/Capstone2/web0/tmp/createdb.sql",
 		"/D/8sem/ADBM/q4.sql",
 		"/D/8sem/ADBM/question3.sql",
 		"/D/Capstone/Capstone2/web0/tmp/showhidescript.js",
-		"/D/Capstone/Capstone2/pranav/target.php",
-		"/D/Capstone/Capstone2/web0/target.php",
 		"/D/8sem/ADBM/question5.sql",
 		"/C/Users/hp/Documents/Unnamed Site 2/registration.php",
 		"/D/Capstone/Capstone2/dummy/Navbar Template for Bootstrap.html",
-		"/D/Capstone/Capstone2/web0/registration.php",
 		"/D/Capstone/Capstone2/dummy/Theme Template for Bootstrap.html",
 		"/C/Users/hp/Documents/Unnamed Site 2/SpryAssets/SpryValidationTextField.js",
 		"/C/Users/hp/Documents/Unnamed Site 2/SpryAssets/SpryValidationTextField.css",
@@ -665,7 +718,6 @@
 		"/D/8sem/WebTech/JavaLab.sublime-project",
 		"/D/8sem/WebTech/JavaLab.sublime-workspace",
 		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/D/BIT/ASSG2/Q12.java",
 		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
@@ -724,38 +776,11 @@
 		"/D/he3.cpp",
 		"/D/prog c/SPOJ/he1.cpp",
 		"/D/prog c/SPOJ/he2.cpp",
-		"/D/prog c/SPOJ/ACPC10A.cpp",
-		"/D/7sem/ISS/iss/6_4.columnarcipher.cpp",
-		"/D/prog c/SPOJ/NSTEPS.cpp",
-		"/D/prog c/SPOJ/TOANDFRO.cpp",
-		"/D/SAMER08F.cpp",
-		"/D/c/README",
-		"/D/c/usingSET.cpp",
-		"/D/c/usingPair.cpp",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/AdvancedNewFile.sublime-settings",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
-		"/D/prog c/SPOJ/PRIME1.py",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/ncr.sublime-snippet",
-		"/D/prog c/SPOJ/Prime_sieveofEros.cpp",
-		"/D/prog c/SPOJ/Prime12.cpp",
-		"/D/c/primes.h",
-		"/D/prog c/SPOJ/ONP.cpp",
-		"/D/prog c/SPOJ/Sphere Online Judge (SPOJ) - Problems.pdf",
-		"/D/temp.cpp",
-		"/D/c/dynamicProgg/README",
-		"/D/prog c/SPOJ/FCTRL.py",
-		"/D/prog c/SPOJ/FCTRL2.py",
-		"/D/Sublime/SPOJ.sublime-project",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/C++ 3.sublime-build",
-		"/D/c/usingVector.cpp",
-		"/D/LATEX/tutorial/Format1.tex",
-		"/D/style.css",
-		"/D/temp/style.css"
+		"/D/prog c/SPOJ/ACPC10A.cpp"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -769,6 +794,35 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"bootstrap-editable",
+			"\n		<table  class=\"table .table-condensed .table-responsive\" border=\"1\" style=\"width:100%\">\n			<tr>\n				<th>UserId</th>\n				<th>Image</th>\n				<th>Name</th>\n				<th>Gender</th>\n				<th>Date Of Birth</th>\n				<th>Age</th>\n				<th>Weight</th>\n				<th>Height</th>\n				<th>Father's Name</th>\n				<th>Email</th>\n				<th>PhoneNo.</th>\n				<th>Address</th>\n				<th>Centre</th>\n				<th>Sports</th>\n				<th>Training Type</th>\n				<th>Timings</th>\n			</tr>\n			<?php \n				require 'config.php';\n\n				class student\n				{\n					public $user_id;\n					public $image;\n					public $uname;\n					public $gender;\n					public $dob;\n					public $age;\n					public $weight;\n					public $height;\n					public $fname;\n					public $email;\n					public $phoneno;\n					public $address;\n					public $center;\n					public $sports;\n					public $trainingType;\n					public $timings;\n					\n					function __construct()\n					{\n		\n					}\n				}\n				try {\n					# dbh means database handle\n					$dbh = new PDO(\"mysql:host=$servername;dbname=$dbname\", $username, $password);\n					# error handling method\n					$dbh->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );\n\n					$sth = $dbh->query(\"SELECT * FROM registration\");\n					$sth->setFetchMode(PDO::FETCH_CLASS,'student');\n\n					while ($obj = $sth->fetch()) {\n						?><tr> \n							<td>	<?php echo $obj->user_id; ?> </td>\n							<td>	<?php echo $obj->image; ?></td>\n							<td>	<?php echo $obj->uname; ?></td>\n							<td>	<?php echo $obj->gender; ?></td>\n							<td>	<?php echo $obj->dob; ?></td>\n							<td>	<?php echo $obj->age; ?></td>\n							<td>	<?php echo $obj->weight; ?></td>\n							<td>	<?php echo $obj->height; ?></td>\n							<td>	<?php echo $obj->fname; ?></td>\n							<td>	<?php echo $obj->email; ?></td>\n							<td>	<?php echo $obj->phoneno; ?></td>\n							<td>	<?php echo $obj->address; ?></td>\n							<td>	<?php echo $obj->center; ?></td>\n							<td>	<?php echo $obj->sports; ?></td>\n							<td>	<?php echo $obj->trainingType; ?></td>\n							<td>	<?php echo $obj->timings; ?></td>\n						</tr> <?php  $dbh=null;\n					}\n				} catch (Exception $e) {\n					echo \"ERROR: \".$e->getMessage();\n				}\n			 ?>\n		</table>",
+			"red",
+			"inputPassword",
+			"inputEmail",
+			"email",
+			"p",
+			"email",
+			"submit",
+			"label",
+			"href",
+			"getmarks",
+			"k",
+			"3",
+			"id",
+			"marks",
+			"tag",
+			"match",
+			"btn-default",
+			";",
+			"}",
+			"</",
+			"<",
+			"script",
+			"loginattempt",
+			"inputPassword3",
+			"inputEmail3",
+			"submit",
+			"col-sm-10",
 			"capstone",
 			"ACADEMY",
 			"trainingGroup",
@@ -867,36 +921,7 @@
 			"val",
 			"a",
 			"slides",
-			"B",
-			"recur",
-			",N",
-			"int val",
-			"1000",
-			"fill",
-			"y",
-			"x",
-			"first",
-			"unsigned",
-			"PRE",
-			" (",
-			"Index",
-			"Input",
-			"Len",
-			"v",
-			"i",
-			"cin>>",
-			"->",
-			".start",
-			"Interval",
-			"printf",
-			"a",
-			"getc_unlocked",
-			"%3",
-			"long",
-			"arr",
-			"long long",
-			"int",
-			"p(N);"
+			"B"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -914,24 +939,88 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/Capstone/Capstone2/dummy/bottdummy.html",
+					"file": "/D/Capstone/Capstone2/TODO",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9367,
+						"buffer_size": 393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3210,
-								3210
+								347,
+								347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "login2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								284
 							]
 						],
 						"settings":
@@ -948,166 +1037,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "show.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 582,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								369,
-								369
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "registration.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10642,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9610,
-								9328
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1820.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "config.php",
+					"file": "gridView.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 95,
+						"buffer_size": 2553,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								95
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "capstone.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 154,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "tmp/createdb.sql",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								213,
-								213
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "target.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 705,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								382,
-								382
+								372,
+								372
 							]
 						],
 						"settings":
@@ -1123,26 +1066,57 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "tmp/createdump.sql",
+					"buffer": 4,
+					"file": "login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 46,
+						"buffer_size": 3568,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								46,
-								46
+								824,
+								824
 							]
 						],
 						"settings":
 						{
-							"auto_name": "mysqldump -u root -p '' capstone > new.sql",
-							"syntax": "Packages/SQL/SQL.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/loginpage.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1152,11 +1126,104 @@
 					"type": "text"
 				}
 			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/CHANGELOG.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2786.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 21202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/demogridView.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1074,
+								1074
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -1171,11 +1238,25 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.0399680255795,
+			0.413685748316,
 			1.0
 		],
 		"rows":
@@ -1213,16 +1294,20 @@
 		"selected_items":
 		[
 			[
+				"",
+				"dummy\\CSS · Bootstrap.html"
+			],
+			[
+				"lo",
+				"web0\\login.html"
+			],
+			[
 				"tem",
 				"temp.cpp"
 			],
 			[
 				"tas",
 				"December Lunchtime 2014/TASTRMAT.cpp"
-			],
-			[
-				"",
-				"/D/prog c/dump.cpp"
 			],
 			[
 				"i",
@@ -1251,15 +1336,15 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 2,
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 236.0,
+	"side_bar_width": 109.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

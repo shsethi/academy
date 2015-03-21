@@ -10,18 +10,28 @@ try {
 
 	# sth means statement handle
 	# prepared statement
+
+	#Get number of members in center of user
+	$sth = $dbh->query("SELECT count(*) FROM registration");
+	$count = sprintf("%04d",$sth->fetch()[0]+1);
+
+	#UserId generated
+	// echo $count;
+	$userId = (string)$_POST['center'].$_POST['sports'].$count;
+	// echo $userId;
+
 	$sth = $dbh->prepare("INSERT into registration 
-						(user_id,image,uname,gender,dob,age,weight,height,
-							fname,email,phoneno,address,center,sports,trainingType,timings) 
-						VALUES (NULL,
-								NULL,
+						(userId,uname,gender,dob,weight,height,image,
+							fname,mname,email,phoneno,address,centerId,sportsId,trainingType,timings) 
+						VALUES ('$userId',
 								'$_POST[uname]',
 								'$_POST[gender]',
 								'$_POST[dob]',
-								'$_POST[age]',
 								'$_POST[weight]',
 								'$_POST[height]',
+									NULL,
 								'$_POST[fname]',
+								'$_POST[mname]',
 								'$_POST[email]',
 								'$_POST[phoneno]',
 								'$_POST[address]',
