@@ -3,10 +3,6 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "D:\\Capstone\\Capstone2\\dummy"
-		},
-		{
-			"follow_symlinks": true,
 			"path": "."
 		},
 		{

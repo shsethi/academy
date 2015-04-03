@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"user",
+				"userId"
+			],
+			[
 				"val",
 				"validate"
 			],
@@ -291,92 +295,108 @@
 			"file": "/D/Capstone/Capstone2/TODO",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 1163,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 6048,
+				"buffer_size": 4565,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sticky-footer-navbar.css",
+			"settings":
+			{
+				"buffer_size": 681,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "login2.html",
+			"file": "css/index.css",
 			"settings":
 			{
-				"buffer_size": 3681,
+				"buffer_size": 53,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "gridView.php",
+			"file": "template.php",
 			"settings":
 			{
-				"buffer_size": 2553,
+				"buffer_size": 212,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "login.html",
+			"file": "includes/header.php",
 			"settings":
 			{
-				"buffer_size": 3568,
+				"buffer_size": 1599,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/loginpage.css",
+			"file": "/D/Capstone/Capstone2/gurpreet/capstone/index.html",
 			"settings":
 			{
-				"buffer_size": 776,
+				"buffer_size": 9656,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/CHANGELOG.txt",
-			"settings":
-			{
-				"buffer_size": 13874,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css",
-			"settings":
-			{
-				"buffer_size": 21202,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/demogridView.html",
-			"settings":
-			{
-				"buffer_size": 2033,
-				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "Packages/C++/C++.sublime-build",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 334.0,
 		"selected_items":
 		[
 			[
-				"side",
-				"View: Toggle Side Bar"
+				"bea",
+				"HTMLBeautify"
 			],
 			[
 				"beau",
 				"HTMLBeautify"
 			],
 			[
-				"bea",
+				"htm",
 				"HTMLBeautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"java",
+				"Javascript Beautify"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"comp",
+				"Compare with..."
+			],
+			[
+				"com",
+				"Compare with..."
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
 			],
 			[
 				"pac",
@@ -411,20 +431,8 @@
 				"Set Syntax: HTML"
 			],
 			[
-				"html",
-				"HTML: Wrap Selection With Tag"
-			],
-			[
 				"set jav",
 				"Set Syntax: Java"
-			],
-			[
-				"java",
-				"Set Syntax: Java"
-			],
-			[
-				"insta",
-				"Package Control: Advanced Install Package"
 			],
 			[
 				"",
@@ -443,15 +451,7 @@
 				"Set Syntax: C++"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"disa",
-				"Package Control: Disable Package"
-			],
-			[
-				"packa",
 				"Package Control: Disable Package"
 			],
 			[
@@ -623,7 +623,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 416.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -643,22 +643,87 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1",
+		"/D/Capstone/Capstone2/web0",
+		"/D/Capstone/Capstone2/web0/css",
+		"/D/Capstone/Capstone2/web0/includes",
+		"/D/Capstone/Capstone2/web0/js",
 		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable",
-		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable/js"
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable/css"
 	],
 	"file_history":
 	[
-		"/D/Capstone/Capstone2/web0/userlogin.php",
-		"/D/Capstone/Capstone2/web0/js/login.js",
+		"/J/Office/varBabloo/uploadfile.php",
+		"/D/Capstone/Capstone2/web0/login.php",
+		"/D/Capstone/Capstone2/web0/aboutUs.php",
+		"/D/Capstone/Capstone2/web0/registration.php",
+		"/D/Capstone/Capstone2/web0/includes/header.php",
+		"/D/Capstone/Capstone2/gurpreet/capstone/about_us.php",
+		"/D/Capstone/Capstone2/web0/js/application.js",
+		"/D/Capstone/Capstone2/web0/css/bootstrap.css",
+		"/D/Capstone/Capstone2/web0/js/bootstrap.js",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/extensions/ColVis/examples/button_order.html",
+		"/D/Capstone/Capstone2/web0/index.php",
+		"/D/Capstone/Capstone2/gurpreet/capstone/comingsoon.html",
+		"/D/Capstone/Capstone2/web0/includes/footer.php",
+		"/D/Capstone/Capstone2/web0/target.php",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/examples/api/tabs_and_scrolling.html",
+		"/D/Capstone/Capstone2/web0/template.php",
+		"/D/Capstone/Capstone2/gurpreet/capstone/css/comingsoon.css",
+		"/D/Capstone/Capstone2/gurpreet/capstone/header.php",
+		"/D/Capstone/Capstone2/gurpreet/capstone/header.html",
+		"/D/Capstone/Capstone2/gurpreet/capstone/dummy",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/examples/advanced_init/html5-data-options.html",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/docs.html",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/extensions/FixedColumns/css/dataTables.fixedColumns.css",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/examples/basic_init/alt_pagination.html",
+		"/D/Capstone/Capstone2/web0/contactUs.php",
+		"/D/Capstone/Capstone2/web0/feedback.php",
+		"/D/Capstone/Capstone2/web0/config.php",
+		"/D/Capstone/Capstone2/gurpreet/capstone/feedback.php",
+		"/D/Capstone/Capstone2/gurpreet/capstone/contact_us.php",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/Contributing.md",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/extensions/TableTools/examples/alter_buttons.html",
+		"/D/Capstone/Capstone2/web0/admin.php",
+		"/D/Capstone/Capstone2/web0/header.php",
+		"/D/Capstone/Capstone2/web0/footer.php",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/examples/basic_init/filter_only.html",
+		"/D/Capstone/Capstone2/web0/studentGrid.php",
+		"/D/Capstone/Capstone2/web0/profile.php",
+		"/D/Capstone/Capstone2/web0/js/profile.js",
+		"/D/Capstone/Capstone2/web0/js/studentgrid.js",
+		"/D/Capstone/Capstone2/web0/loginChk.php",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/X-editable Demo.html",
+		"/D/Capstone/Capstone2/web0/student.php",
+		"/D/Capstone/Capstone2/web0/gridView.php",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/examples/advanced_init/complex_header.html",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/demogridView.html",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/demogrid.js",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/examples/basic_init/scroll_y_theme.html",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/DataTables-1.10.5/examples/styling/index.html",
 		"/D/Capstone/Capstone2/web0/show.php",
+		"/D/Capstone/Capstone2/web0/login2.php",
+		"/D/Capstone/Capstone2/web0/js/login2.js",
+		"/D/Capstone/Capstone2/web0/loginChk2.php",
+		"/J/Office/varBabloo/upload/Jquery/ver2/advanceUpload.js",
+		"/J/Office/varBabloo/upload/Jquery/ncBetaUploader.js",
+		"/J/Office/varBabloo/upload/upload.js",
+		"/D/Capstone/Capstone2/dummy/fonts/glyphicons-halflings-regular.svg",
+		"/D/Capstone/Capstone2/web0/login2.js",
+		"/D/Capstone/Capstone2/web0/userlogin.php",
+		"/D/Capstone/Capstone2/pranav2/academy.sql",
+		"/D/Capstone/Capstone2/academy.sql",
+		"/D/Capstone/Capstone2/old/registration.php",
+		"/D/Capstone/Capstone2/pranav2/registration.php",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css",
+		"/D/Capstone/Capstone2/pranav2/target.php",
 		"/D/Capstone/Capstone2/web0/css/loginpage.css",
+		"/D/Capstone/Capstone2/pranav/header.php",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/CHANGELOG.txt",
+		"/D/Capstone/Capstone2/web0/js/login.js",
 		"/D/Capstone/Capstone2/dummy/Theme Template for Bootstrap_files/docs.min.js",
 		"/D/Capstone/Capstone2/dummy/Components · Bootstrap_files/tweet_button.d8beb5db2b3f29fe16e117201cd7934a.en.html",
-		"/D/Capstone/Capstone2/web0/target.php",
 		"/D/Capstone/Capstone2/TODO",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
-		"/D/Capstone/Capstone2/web0/registration.php",
 		"/D/Capstone/Capstone2/dummy/Components · Bootstrap_files/www-embed-player.js",
 		"/D/Capstone/Capstone2/dummy/CSS · Bootstrap_files/ie-emulation-modes-warning.js",
 		"/D/Capstone/Capstone2/dummy/bottdummy.html",
@@ -674,13 +739,11 @@
 		"/D/Capstone/Capstone2/dummy/CSS · Bootstrap.html",
 		"/D/Capstone/Capstone2/dummy/Components · Bootstrap_files/4ezXf62z9_XNKMb_Gnmx9povhJeoFaiX0_3IfArKikg.js",
 		"/D/Capstone/Capstone2/web0/admin.html",
-		"/D/Capstone/Capstone2/web0/gridView.php",
 		"/D/Capstone/Capstone2/web0/index.html",
 		"/D/Capstone/Capstone2/web0/capstone.sublime-project",
 		"/D/Capstone/Capstone2/web0/tmp/createdb.sql",
 		"/D/Capstone/Capstone2/web0/tmp/createdump.sql",
 		"/D/Capstone/Capstone2/pranav/target.php",
-		"/D/Capstone/Capstone2/web0/config.php",
 		"/E/web0/tmp/createdb.sql",
 		"/E/web0/config.php",
 		"/D/8sem/ADBM/q4.sql",
@@ -716,77 +779,19 @@
 		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/Java/class_main.sublime-snippet",
 		"/D/8sem/WebTech/LAB1/  symbol",
 		"/D/8sem/WebTech/JavaLab.sublime-project",
-		"/D/8sem/WebTech/JavaLab.sublime-workspace",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/D/BIT/ASSG2/Q12.java",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Settings/Session.sublime_session",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
-		"/D/prog c/Comprog/CodeChef/MINDSWEEPER/ALOKKING.cpp",
-		"/D/prog c/Comprog/SPOJ/Prime1.cpp",
-		"/D/prog c/Comprog/CodeChef/temp.cpp",
-		"/D/prog c/Comprog/CodeChef/KRKS2015/K15D.cpp",
-		"/D/membership.sql",
-		"/D/prog c/Comprog/SPOJ/Prime12.cpp",
-		"/D/prog c/Comprog/CodeChef/December Lunchtime 2014/TADELIVE.cpp",
-		"/D/prog c/Comprog/CodeChef/December Lunchtime 2014/TASTRMAT.cpp",
-		"/C/Users/hp/Downloads/LOP/League of Programmers.html",
-		"/D/prog c/Comprog/CodeChef/JAN15/SEAVOTE.cpp",
-		"/D/prog c/Comprog/CodeChef/JAN15/ONEKING.cpp",
-		"/D/prog c/Comprog/CodeChef/JAN15/N)",
-		"/D/prog c/Comprog/CodeChef/JAN15/GCDQ.cpp",
-		"/D/todo.TODO",
-		"/D/prog c/Comprog/CodeChef/JAN15/CHEFSTON.cpp",
-		"/D/prog c/Comprog/NOTES.todo",
-		"/D/prog c/Comprog/CodeChef/JAN15/QSET.cpp",
-		"/D/Sublime/sample.todo",
-		"/D/prog c/Comprog/fast_i_o.cpp",
-		"/D/prog c/Comprog/CodeChef/JAN15/GCDQ_.fastcpp",
-		"/c/mingw/include/stdio.h",
-		"/D/prog c/Comprog/CodeChef/CHEFSTON.cpp",
-		"/D/prog c/Comprog/CodeChef/JAN15/QSET_bruteforce.cpp",
-		"/D/prog c/Codechef/temp.cpp",
-		"/D/prog c/Comprog/CodeChef/ANUUND3.cpp",
-		"/D/prog c/Comprog/CodeChef/Codechef.sublime-project",
-		"/D/prog c/hammingDistance.cpp",
-		"/D/prog c/Codechef/ANUUND.cpp",
-		"/D/prog c/Comprog/CodeChef/ANUUND2.cpp",
-		"/C/Users/hp/Downloads/Question",
-		"/D/prog c/SPOJ/NOTES.todo",
-		"/D/prog c/Codechef/December Lunchtime 2014/TADELIVE.cpp",
-		"/D/prog c/HTML/HTML.html",
-		"/D/prog c/SPOJ/baseconversion.cpp",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/C++/C++.sublime-build",
-		"/D/prog c/binarystringTint.cpp",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/PlainTasks/messages/Tutorial.todo",
-		"/D/c/dynamicProgg/changeMakingProb.cpp",
-		"/D/c/dynamicProgg/ANARC05H.cpp",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Profiler.sublime-build",
-		"/D/prog c/CodeChef/Codechef.sublime-project",
-		"/D/prog c/SPOJ/GAMES.cpp",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/spoj.sublime-snippet",
-		"/D/prog c/SPOJ/SPOJ.sublime-project",
-		"/C/MinGW/lib/gcc/mingw32/4.7.1/include/c++/mingw32/bits/stdc++.h",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/C++ 2.sublime-build",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/hp/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/D/he3.cpp",
-		"/D/prog c/SPOJ/he1.cpp",
-		"/D/prog c/SPOJ/he2.cpp",
-		"/D/prog c/SPOJ/ACPC10A.cpp"
+		"/D/8sem/WebTech/JavaLab.sublime-workspace"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"<open folders>",
+			""
 		]
 	},
 	"find_state":
@@ -794,6 +799,32 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"input",
+			"row",
+			"\n		<h3>Welcome!</h3><br/>\n		<p style=\"text-align:justify\">\n			Ace Tennis Academy wa established in 2006. We have total 8-10 Branches in Ludhiana. We provide different kind of programs for beginner & professional level. We arrange regular Tournaments for players. All age groups are invited. Everyone can join. We assure you to give our best. <br/>\n		</p>",
+			"carousel-control",
+			"myCarousel",
+			"modal",
+			"smth",
+			"carousel slide",
+			"myCarousel",
+			"jpg",
+			"src",
+			"';]",
+			"</td>",
+			"<td>",
+			"$",
+			"<",
+			"$dbh",
+			"dbh",
+			"sth",
+			"bindParam",
+			"\"button\"",
+			"button",
+			"academy",
+			"select",
+			"type",
+			"age",
 			"bootstrap-editable",
 			"\n		<table  class=\"table .table-condensed .table-responsive\" border=\"1\" style=\"width:100%\">\n			<tr>\n				<th>UserId</th>\n				<th>Image</th>\n				<th>Name</th>\n				<th>Gender</th>\n				<th>Date Of Birth</th>\n				<th>Age</th>\n				<th>Weight</th>\n				<th>Height</th>\n				<th>Father's Name</th>\n				<th>Email</th>\n				<th>PhoneNo.</th>\n				<th>Address</th>\n				<th>Centre</th>\n				<th>Sports</th>\n				<th>Training Type</th>\n				<th>Timings</th>\n			</tr>\n			<?php \n				require 'config.php';\n\n				class student\n				{\n					public $user_id;\n					public $image;\n					public $uname;\n					public $gender;\n					public $dob;\n					public $age;\n					public $weight;\n					public $height;\n					public $fname;\n					public $email;\n					public $phoneno;\n					public $address;\n					public $center;\n					public $sports;\n					public $trainingType;\n					public $timings;\n					\n					function __construct()\n					{\n		\n					}\n				}\n				try {\n					# dbh means database handle\n					$dbh = new PDO(\"mysql:host=$servername;dbname=$dbname\", $username, $password);\n					# error handling method\n					$dbh->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );\n\n					$sth = $dbh->query(\"SELECT * FROM registration\");\n					$sth->setFetchMode(PDO::FETCH_CLASS,'student');\n\n					while ($obj = $sth->fetch()) {\n						?><tr> \n							<td>	<?php echo $obj->user_id; ?> </td>\n							<td>	<?php echo $obj->image; ?></td>\n							<td>	<?php echo $obj->uname; ?></td>\n							<td>	<?php echo $obj->gender; ?></td>\n							<td>	<?php echo $obj->dob; ?></td>\n							<td>	<?php echo $obj->age; ?></td>\n							<td>	<?php echo $obj->weight; ?></td>\n							<td>	<?php echo $obj->height; ?></td>\n							<td>	<?php echo $obj->fname; ?></td>\n							<td>	<?php echo $obj->email; ?></td>\n							<td>	<?php echo $obj->phoneno; ?></td>\n							<td>	<?php echo $obj->address; ?></td>\n							<td>	<?php echo $obj->center; ?></td>\n							<td>	<?php echo $obj->sports; ?></td>\n							<td>	<?php echo $obj->trainingType; ?></td>\n							<td>	<?php echo $obj->timings; ?></td>\n						</tr> <?php  $dbh=null;\n					}\n				} catch (Exception $e) {\n					echo \"ERROR: \".$e->getMessage();\n				}\n			 ?>\n		</table>",
 			"red",
@@ -895,33 +926,7 @@
 			"Sum",
 			"data",
 			"Stack",
-			"Typist",
-			"ip",
-			"c.",
-			"ip",
-			"private",
-			"String",
-			"float",
-			"ctrl+d",
-			"ctrl+",
-			"+D",
-			"D",
-			"close",
-			"ctrl+k",
-			"ctrl+b",
-			"System",
-			"java",
-			"spa",
-			"work",
-			"(",
-			"),",
-			"(",
-			";",
-			"cout",
-			"val",
-			"a",
-			"slides",
-			"B"
+			"Typist"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -933,13 +938,13 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -948,15 +953,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 1163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								347,
-								347
+								656,
+								656
 							]
 						],
 						"settings":
@@ -964,70 +969,92 @@
 							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6048,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 468.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 2,
-					"file": "login2.html",
+					"buffer": 1,
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3681,
+						"buffer_size": 4565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16,
-								284
+								3385,
+								3385
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/sticky-footer-navbar.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								678,
+								488
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1037,185 +1064,96 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "gridView.php",
+					"buffer": 4,
+					"file": "template.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2553,
+						"buffer_size": 212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								372,
-								372
+								0,
+								212
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "includes/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "login.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3568,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								824,
-								824
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/loginpage.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 776,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								39
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 6,
-					"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/CHANGELOG.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13874,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								503,
-								503
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2786.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css",
+					"file": "/D/Capstone/Capstone2/gurpreet/capstone/index.html",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 21202,
+						"buffer_size": 9656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								451,
-								451
+								8521,
+								8520
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5850.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/D/Capstone/Capstone2/bootstrap3-editable-1.5.1/demogridView.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2033,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1074,
-								1074
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 513.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1223,7 +1161,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1244,19 +1182,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.0399680255795,
-			0.413685748316,
+			0.657006935668,
 			1.0
 		],
 		"rows":
@@ -1285,7 +1216,7 @@
 	"project": "capstone.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1294,12 +1225,88 @@
 		"selected_items":
 		[
 			[
-				"",
-				"dummy\\CSS · Bootstrap.html"
+				"hea",
+				"web0\\includes\\header.php"
+			],
+			[
+				"re",
+				"web0\\registration.php"
+			],
+			[
+				"abou",
+				"web0\\aboutUs.php"
+			],
+			[
+				"boo",
+				"web0\\css\\bootstrap.css"
+			],
+			[
+				"tar",
+				"web0\\target.php"
+			],
+			[
+				"he",
+				"web0\\includes\\header.php"
+			],
+			[
+				"app",
+				"web0\\js\\application.js"
+			],
+			[
+				"ind",
+				"web0\\index.html"
+			],
+			[
+				"com",
+				"capstone\\comingsoon.html"
+			],
+			[
+				"cont",
+				"capstone\\contact_us.php"
+			],
+			[
+				"te",
+				"web0\\template.php"
+			],
+			[
+				"fee",
+				"capstone\\feedback.php"
 			],
 			[
 				"lo",
-				"web0\\login.html"
+				"web0\\login.php"
+			],
+			[
+				"foor",
+				"web0\\footer.php"
+			],
+			[
+				"foo",
+				"web0\\footer.php"
+			],
+			[
+				"in",
+				"web0\\index.html"
+			],
+			[
+				"stude",
+				"web0\\js\\studentgrid.js"
+			],
+			[
+				"chk",
+				"web0\\loginChk.php"
+			],
+			[
+				"griid",
+				"web0\\gridView.php"
+			],
+			[
+				"co",
+				"web0\\config.php"
+			],
+			[
+				"",
+				"dummy\\CSS · Bootstrap.html"
 			],
 			[
 				"tem",
@@ -1336,7 +1343,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1344,7 +1351,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 109.0,
+	"side_bar_width": 275.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

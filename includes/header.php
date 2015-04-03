@@ -5,6 +5,8 @@
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/sticky-footer-navbar.css">
+
 
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -13,11 +15,22 @@
     </div>
     <div>
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Photo Gallery</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Feedback</a></li>
-        <li><a href="#">Contact Us</a></li>
+         <li><a href="index.php">Home</a></li>
+        <li class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">Games<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Tennis</a></li>
+                <li><a href="#">Badminton</a></li>
+                <li><a href="#">Football</a></li>
+                <li><a href="#">Cricket</a></li>
+                <li><a href="#">Martial Arts</a></li>
+                <li><a href="#">Squash</a></li>
+                <li><a href="#">Table Tennis</a></li>
+              </ul>
+            </li>
+        <li><a href="aboutUs.php">About Us</a></li>
+        <li><a href="feedback.php">Feedback</a></li>
+        <li><a href="contactUs.php">Contact Us</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="registration.php"><span class="glyphicon glyphicon-user"></span> Register </a></li>

@@ -1,0 +1,8 @@
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background:red;
+}
+
+ .carousel img{max-height:400px;}
