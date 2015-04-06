@@ -37,14 +37,20 @@
             </div>
           </div>
 
-          <!-- <div class="form-group">
-             <label for="age" class="col-sm-2 control-label">Age</label>        
+          <div class="form-group">
+             <label for="Year of Joining" class="col-sm-2 control-label">Year of Joining</label>        
              <div class="col-sm-5">
-              <input type="number" class="form-control" name="age" placeholder="in years" >
+              <input type="number" class="form-control" name="yoj" placeholder="20XX" >
             </div>
           </div>
-          -->
-          
+         
+        <div class="form-group">
+          <label for="password" class="col-sm-2 control-label">Password</label>
+          <div class="col-sm-5">
+            <input type="password" class="form-control" name="password" placeholder="Choose password">
+          </div>
+        </div>
+
           <div class="form-group">
              <label for="weight" class="col-sm-2 control-label">Weight</label>        
              <div class="col-sm-5">
@@ -114,12 +120,12 @@
              <label for="Sports" class="col-sm-2 control-label">Sports</label>        
               <div class="col-sm-5">
                 <select class="form-control" name= "sports" >
-                  <option value="01">Badminton</option>
-                  <option value="02">Cricket</option>
-                  <option value="03">Football</option>
-                  <option value="04">Martial Arts</option>
-                  <option value="05">Table Tennis</option>
-                  <option value="06">Tennis</option>
+                  <option value="BD">Badminton</option>
+                  <option value="CK">Cricket</option>
+                  <option value="FB">Football</option>
+                  <option value="MA">Martial Arts</option>
+                  <option value="TT">Table Tennis</option>
+                  <option value="LT">Tennis</option>
                 </select>
               </div>
           </div>
@@ -184,12 +190,7 @@
                   </div>
                 </div>
           </div>
-       <!--  <div class="form-group">
-          <label for="password" class="col-sm-2 control-label">Password</label>
-          <div class="col-sm-5">
-            <input type="password" class="form-control" name="password" placeholder="Password">
-          </div>
-        </div> -->
+ 
    
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-5">

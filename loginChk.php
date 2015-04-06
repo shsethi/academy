@@ -1,6 +1,7 @@
 <?php 
 
 require 'config.php';
+session_start();
 
 try {
 
@@ -10,8 +11,12 @@ try {
 	$dbh->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
 	$sth = $dbh->prepare("SELECT * FROM login WHERE userId = :userId AND password = :password");
+	$pass = md5($_POST['password']);
+	
+	# bind parameters
 	$sth->bindParam(':userId',$_POST['username'],PDO::PARAM_STR);
-	$sth->bindParam(':password',$_POST['password'],PDO::PARAM_STR);
+	$sth->bindParam(':password',$pass,PDO::PARAM_STR);
+	
 	$sth->setFetchMode(PDO::FETCH_ASSOC);
 	$sth->execute();
 	$check = $sth->fetch();
@@ -21,12 +26,14 @@ try {
 	}
 	elseif ($check['utype'] == 'admin' ) {
 		// echo "Admin login succesful";
+		$_SESSION['userId'] = $_POST['username'];
 		header("Location: http://localhost/aceacademy.com/admin.php"); /* Redirect browser */
 		exit();
 	}
 	elseif ($check['utype'] == 'student') {
 		// echo "Student login succesful";
-		header("Location: http://localhost/aceacademy.com/profile.php?userId=".$check['userId']); /* Redirect browser */
+		$_SESSION['userId'] = $_POST['username'];
+		header("Location: http://localhost/aceacademy.com/profile.php"); /* Redirect browser */
 		exit();
 	}
 	else{
