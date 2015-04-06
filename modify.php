@@ -1,5 +1,11 @@
 <?php 
 
-print_r($_POST);
+require 'config.php';
+
+try {
+	echo "Hello Git";
+} catch (Exception $e) {
+	echo $e->getMessage();
+}
 
  ?>
