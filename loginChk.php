@@ -27,12 +27,17 @@ try {
 	elseif ($check['utype'] == 'admin' ) {
 		// echo "Admin login succesful";
 		$_SESSION['userId'] = $_POST['username'];
+		$_SESSION['utype'] = $check['utype'];
+		$_SESSION['sid'] = $_POST['username'];
 		header("Location: http://localhost/aceacademy.com/admin/"); /* Redirect browser */
 		exit();
 	}
 	elseif ($check['utype'] == 'student') {
 		// echo "Student login succesful";
 		$_SESSION['userId'] = $_POST['username'];
+		$_SESSION['utype'] = $check['utype'];
+		$_SESSION['sid'] = $_POST['username'];
+
 		header("Location: http://localhost/aceacademy.com/profile.php"); /* Redirect browser */
 		exit();
 	}

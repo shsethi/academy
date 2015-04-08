@@ -1,7 +1,7 @@
 <?php
 # Inialize session
 	session_start();
-	//echo $_SESSION['username'];
+	echo print_r($_SESSION);
 # Check, if username session is NOT set then this page will jump to login page
 if (!isset($_SESSION['userId'])) {
 header("Location: http://localhost/aceacademy.com/");
@@ -35,7 +35,7 @@ header("Location: http://localhost/aceacademy.com/");
 					}
 				}
 				// $userId = '02060001';
-				$userId = $_SESSION['userId'];
+				$userId = $_SESSION['sid'];
 				try {
 					# dbh means database handle
 					$dbh = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -130,15 +130,15 @@ header("Location: http://localhost/aceacademy.com/");
 										</tr>
 										<tr>
 											<td>Center</td>
-											<td> <a id="center">	<?php echo $obj->centerName; ?></a></td>
+											<td> <a id="centerId">	<?php echo $obj->centerName; ?></a></td>
 										</tr>
 										<tr>
 											<td>Sports</td>
-											<td> <a id="sports">	<?php echo $obj->sportsName; ?></a></td>
+											<td> <a id="sportsId">	<?php echo $obj->sportsName; ?></a></td>
 										</tr>
 										<tr>
-											<td>Traing Type</td>
-											<td> <a id="traingType">	<?php echo $obj->trainingType; ?></a></td>
+											<td>Training Type</td>
+											<td> <a id="trainingType">	<?php echo $obj->trainingType; ?></a></td>
 										</tr>
 										<tr>
 											<td>Timings</td>
@@ -213,6 +213,14 @@ header("Location: http://localhost/aceacademy.com/");
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="includes/bootstrap3-editable-1.5.1/bootstrap3-editable/js/bootstrap-editable.js"></script>
-		<script src="js/profile.js" ></script>
+		<script src="js/studentrights.js" ></script>
+		
+		<?php 
+		//this js gives extra editing rights to admin
+			if (($_SESSION['utype'])=='admin') {
+			
+			echo"<script src=\"js/adminrights.js\" ></script>" ;
+			}
+		?>
 	</body>
 	<?php include('/includes/footer.php'); ?>

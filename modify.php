@@ -37,12 +37,12 @@ switch ($_POST['name']) {
 		$table = 'registration';
 		$type = PDO::PARAM_STR;
 		break;
-	case 'center':
+	case 'centerId':
 		$table = 'registration';
 		$type = PDO::PARAM_STR;
 		break;
-	case 'sports':
-		$table = 'registration';
+	case 'sportsId':
+		$table = 'stud_sports';
 		$type = PDO::PARAM_STR;
 		break;
 	case 'trainingType':
