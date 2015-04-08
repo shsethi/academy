@@ -174,7 +174,7 @@ header("Location: http://localhost/aceacademy.com/");
 										</tr>
 										<tr>
 											<td>BMI</td>
-											<td> <a id="bmi">	<?php echo round($obj->weight/pow(($obj->height/100),2),2) ; ?> </a></td>
+											<td> <span id="bmi">	<?php echo round($obj->weight/pow(($obj->height/100),2),2) ; ?> </span></td>
 										</tr>
 
 

@@ -27,7 +27,7 @@ try {
 	elseif ($check['utype'] == 'admin' ) {
 		// echo "Admin login succesful";
 		$_SESSION['userId'] = $_POST['username'];
-		header("Location: http://localhost/aceacademy.com/admin.php"); /* Redirect browser */
+		header("Location: http://localhost/aceacademy.com/admin/"); /* Redirect browser */
 		exit();
 	}
 	elseif ($check['utype'] == 'student') {

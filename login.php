@@ -1,4 +1,4 @@
-<?php include('/includes/header.php') ?>
+<?php include('/includes/header.php');?>
 <link rel="stylesheet" href="css/loginpage.css">
 <body> 
   <div class="container">
@@ -15,8 +15,9 @@
             <input type="password"  data-toggle="popover" data-placement="right" data-content="password min length 7 "
             name="password"class="form-control input-lg" id="password" placeholder="Password" required="" />
             
-            <button id="adminlogin" type="submit"  class="btn btn-lg btn-primary btn-block">Admin Login</button>
-            <button id="studentlogin" type="submit" class="btn btn-lg btn-primary btn-block">Student Login</button>
+            <!-- <button id="adminlogin" type="submit"  class="btn btn-lg btn-primary btn-block">Admin Login</button> -->
+            <!-- <button id="studentlogin" type="submit" class="btn btn-lg btn-primary btn-block">Student Login</button> -->
+            <button id="login" type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
             
             <div>
               <a href="#">Register</a> or
