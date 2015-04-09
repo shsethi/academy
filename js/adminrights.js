@@ -9,11 +9,11 @@
 		,pk: userId
 		,url: 'modify.php'
 		,source: [
-					{value: 01, text: 'Sarabha Nagar'},    //TODO this should be retrieved via ajax
-					{value: 02, text: 'Khalsa'},
-					{value: 03, text: 'BCM'},
-					{value: 04, text: 'Govt. College'},
-					{value: 05, text: 'Sports Complex'},
+					{value: "01", text: 'Sarabha Nagar'},    //TODO this should be retrieved via ajax
+					{value: "02", text: 'Khalsa'},
+					{value: "03", text: 'BCM'},
+					{value: "04", text: 'Govt. College'},
+					{value: "05", text: 'Sports Complex'},
 				 ]
 	});
 
@@ -25,12 +25,12 @@
 		,pk: userId
 		,url: 'modify.php'
 		,source: [
-				{value: "06", text: 'Tennis'},    //TODO this should be retrieved via ajax
-				{value: "01", text: 'Badminton'},
-				{value: "02", text: 'Cricket'},
-				{value: "03", text: 'Football'},
-				{value: "04", text: 'Table Tennis'},
-				{value: "05", text: 'Martial Arts'},
+				{value: "LT", text: 'Tennis'},    //TODO this should be retrieved via ajax
+				{value: "BD", text: 'Badminton'},
+				{value: "CK", text: 'Cricket'},
+				{value: "FB", text: 'Football'},
+				{value: "TT", text: 'Table Tennis'},
+				{value: "MA", text: 'Martial Arts'},
 				]
 	});
 	$('#trainingType').editable({

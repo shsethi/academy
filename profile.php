@@ -1,7 +1,7 @@
 <?php
 # Inialize session
 	session_start();
-	echo print_r($_SESSION);
+	// echo print_r($_SESSION);
 # Check, if username session is NOT set then this page will jump to login page
 if (!isset($_SESSION['userId'])) {
 header("Location: http://localhost/aceacademy.com/");
