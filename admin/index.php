@@ -7,7 +7,9 @@ header("Location: http://localhost/aceacademy.com/");
     }
 ?>
 
-<?php include('header.php') ?>
+<!-- <?php include('header.php') ?> -->
+<?php include('/includes/header.php') ?>
+
 <title>Ace Academy</title>
 
 
@@ -45,4 +47,4 @@ header("Location: http://localhost/aceacademy.com/");
  <script src="../js/jquery.min.js"></script>
  <script src="../js/bootstrap.min.js"></script>
 </body>
-<?php include('footer.php'); ?>
+<?php include('/includes/footer.php'); ?>

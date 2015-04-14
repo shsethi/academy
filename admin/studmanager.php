@@ -6,7 +6,7 @@ if (!isset($_SESSION['userId'])) {
 header("Location: http://localhost/aceacademy.com/");
     }
 ?>
-<?php include('header.php') ?>
+<?php include('/includes/header.php') ?>
 <title>Ace Academy</title>
 <link rel="stylesheet" href=" ../includes/DataTables-1.10.5/media/css/jquery.dataTables.min.css">
 <body>
@@ -90,4 +90,4 @@ header("Location: http://localhost/aceacademy.com/");
 	});
 	</script>
 </body>
-<?php include('footer.php'); ?>
+<?php include('/includes/footer.php'); ?>

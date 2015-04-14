@@ -62,18 +62,18 @@
                         <a href="studmanager.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Student Manager</a>
                     </li>
                     
-                      <li>
+        <!--             <li>
                         <a href="feesmanager.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Fees Manager</a>
-                    </li>
+                    </li> -->
                     
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Fees Manager <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="feerecordview.php">Fees Record</a>
                             </li>
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="feemanager.php"> Fees Enter</a>
                             </li>
                         </ul>
                     </li>

@@ -6,7 +6,8 @@ if (!isset($_SESSION['userId'])) {
 header("Location: http://localhost/aceacademy.com/");
 }
 ?>
-<?php include('header.php') ?>
+<?php include('/includes/header.php') ?>
+<link rel="stylesheet" href="bootstrap-combobox-master/bootstrap-combobox.css">
 <title>Ace Academy</title>
 <link rel="stylesheet" href=" ../includes/DataTables-1.10.5/media/css/jquery.dataTables.min.css">
 <body>
@@ -37,7 +38,7 @@ header("Location: http://localhost/aceacademy.com/");
 							<label for="userId" class="control-label">Student Id</label>
 							<div class="">
 								<!-- <input type="text" class="form-control" name="userId" required> -->
-								<select class="form-control" name= "userId">
+								<select  id="useridbox" class="form-control" name= "userId" required>
 									
 									<?php
 											require '../config.php';
@@ -52,7 +53,7 @@ header("Location: http://localhost/aceacademy.com/");
 												// var_dump($obj);
 												while($obj = $sth->fetch()) {
 									?>
-									<option value="<?php echo $obj['userId']; ?>"> <?php echo $obj['userId'] ; ?> </option>
+									<option value="<?php echo $obj['userId']; ?>"><?php echo $obj['userId'];?></option>
 									<?php
 									}
 									
@@ -113,5 +114,12 @@ header("Location: http://localhost/aceacademy.com/");
 			$("#uidtable").DataTable(); //initializing Datatable plugin
 		});
 		</script>
+
+		<script src="bootstrap-combobox-master/bootstrap-combobox.js"></script>
+		<script>
+			$(document).ready(function(){
+		    	$('#useridbox').combobox();
+  			});
+		</script>
 	</body>
-	<?php include('footer.php'); ?>
+	<?php include('/includes/footer.php'); ?>

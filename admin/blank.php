@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+<?php include('/includes/header.php') ?>
 <title>Ace Academy</title>
 <link rel="stylesheet" href=" ../includes/DataTables-1.10.5/media/css/jquery.dataTables.min.css">
 <body>
@@ -43,4 +43,4 @@
 	});
 	</script>
 </body>
-<?php include('footer.php'); ?>
+<?php include('/includes/footer.php'); ?>
