@@ -41,7 +41,8 @@ header("Location: http://localhost/aceacademy.com/");
 									<div class="form-group">
 										<label for="date" class="col-lg-2 control-label">Date</label>
 										<div class="col-lg-6">
-											<input type="date" id= "datepicker" class="form-control" name="date" >
+											<input type="date" id= "datepicker" class="form-control" name="date" 
+											value="<?php if(isset ($_POST['date'])) echo$_POST['date']; else echo date("Y-m-d"); ?>">
 											<!-- <input type="text" class="form-control" id="datepicker"> -->
 										</div>
 									</div>
@@ -89,15 +90,102 @@ header("Location: http://localhost/aceacademy.com/");
 						<!-- Attendance Table -->
 										
 						<div class="alert" style="display:none">
-							<button type="button" class="close" data-dismiss="alert">&times;</button>
+							
 							<!-- <strong>Success!</strong> Attendance marked -->
 						</div>
 
 						<ul class="nav nav-tabs" id="myTab">
-							<li><a data-toggle="tab" href="#viewattd">View Attendance</a></li>
-							<li class="active"><a data-toggle="tab" href="#markattd">Mark Attendance</a></li>
+							<li class="active"><a data-toggle="tab" href="#viewattd">View Attendance</a></li>
+							<li><a data-toggle="tab" href="#markattd">Mark Attendance</a></li>
 						</ul>
 						<div class="tab-content">
+						<div class="tab-pane active" id="viewattd">
+							<div class="span7 offset2">
+									
+							<div class="table-responsive">
+								<table id="viewAttdTable" class="table table-striped table-bordered dataTable no-footer" border="1">
+									
+									<thead>
+										<tr>
+											<th>S.NO</th>
+											<th>Student Name</th>
+											<th>UID</th>
+											<th>Absent(A) Present(P) </th>
+										</tr>
+									</thead>
+									<tbody>
+										<?php
+												require '../config.php';
+										try {
+												# dbh means database handle
+												$dbh = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+												# error handling method
+												$dbh->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+												$query = "SELECT registration.userId,uname,status FROM registration
+															LEFT JOIN (SELECT * FROM attendance
+																WHERE date like :date) as attd
+																ON registration.userId = attd.userId";
+												$sth = $dbh->prepare($query);
+												$sth->bindParam(':date',$_POST['date'],PDO::PARAM_STR);
+
+												//If all was selected then where conditions would not be added
+												if (strcasecmp("all", $_POST['sportsId']) !== 0) {
+												//Concatenate
+													$query = $query . " JOIN stud_sports
+																		ON registration.userId = stud_sports.userId 
+																		WHERE sportsId = :sportsId";
+													$sth = $dbh->prepare($query);
+													
+													
+													if (strcasecmp("all", $_POST['centerId']) !== 0) {
+														$query = $query . " AND centerId = :centerId";
+														$sth = $dbh->prepare($query);
+														$sth->bindParam(':centerId',$_POST['centerId'],PDO::PARAM_STR);
+													}
+
+													$sth->bindParam(':sportsId',$_POST['sportsId'],PDO::PARAM_STR);
+												}
+												else{
+													if (strcasecmp("all", $_POST['centerId']) !== 0) {
+														$query = $query . " WHERE centerId = :centerId";
+														$sth = $dbh->prepare($query);
+														$sth->bindParam(':centerId',$_POST['centerId'],PDO::PARAM_STR);
+													}
+												}
+												$sth->execute();
+												$count=0;
+												while($obj = $sth->fetch()) {
+												$count++;
+												// print_r($obj);
+												?>
+										<tr>
+											<td> <?php echo $count; ?> </td>
+											<td> <?php echo $obj['uname'] ; ?> 	</td>
+											<td> <?php echo $obj['userId'] ; ?> 	</td>
+											<td>
+												<label >
+													 <?php 
+													 if( $obj['status']=== NULL)
+													 	echo "Not marked" ;
+													 else 
+													 	echo $obj['status'] ;?>
+												</label>
+											</td>
+										</tr>
+										<?php
+										}
+										
+										}
+										catch (Exception $e) {
+										echo $e->getMessage();
+										}
+										?>
+									</tbody>
+								</table>
+							</div>
+
+							</div>
+						</div>
 						<div class="tab-pane" id="markattd">
 							<form role="form" id="form2" name="form2" method="post" action="attdInsert.php">
 								
@@ -191,93 +279,7 @@ header("Location: http://localhost/aceacademy.com/");
 								</div>
 							</form>
 						</div>
-						<div class="tab-pane" id="viewattd">
-							<div class="span7 offset2">
-									
-							<div class="table-responsive">
-								<table id="viewAttdTable" class="table table-striped table-bordered dataTable no-footer" border="1">
-									
-									<thead>
-										<tr>
-											<th>S.NO</th>
-											<th>Student Name</th>
-											<th>UID</th>
-											<th>Absent(A) Present(P) </th>
-										</tr>
-									</thead>
-									<tbody>
-										<?php
-												require '../config.php';
-										try {
-												# dbh means database handle
-												$dbh = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-												# error handling method
-												$dbh->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-												$query = "SELECT registration.userId,uname,status FROM registration
-															LEFT JOIN (SELECT * FROM attendance
-																WHERE date like :date) as attd
-																ON registration.userId = attd.userId";
-												$sth = $dbh->prepare($query);
-												$sth->bindParam(':date',$_POST['date'],PDO::PARAM_STR);
-
-												//If all was selected then where conditions would not be added
-												if (strcasecmp("all", $_POST['sportsId']) !== 0) {
-												//Concatenate
-													$query = $query . " JOIN stud_sports
-																		ON registration.userId = stud_sports.userId 
-																		WHERE sportsId = :sportsId";
-													$sth = $dbh->prepare($query);
-													
-													
-													if (strcasecmp("all", $_POST['centerId']) !== 0) {
-														$query = $query . " AND centerId = :centerId";
-														$sth = $dbh->prepare($query);
-														$sth->bindParam(':centerId',$_POST['centerId'],PDO::PARAM_STR);
-													}
-
-													$sth->bindParam(':sportsId',$_POST['sportsId'],PDO::PARAM_STR);
-												}
-												else{
-													if (strcasecmp("all", $_POST['centerId']) !== 0) {
-														$query = $query . " WHERE centerId = :centerId";
-														$sth = $dbh->prepare($query);
-														$sth->bindParam(':centerId',$_POST['centerId'],PDO::PARAM_STR);
-													}
-												}
-												$sth->execute();
-												$count=0;
-												while($obj = $sth->fetch()) {
-												$count++;
-												// print_r($obj);
-												?>
-										<tr>
-											<td> <?php echo $count; ?> </td>
-											<td> <?php echo $obj['uname'] ; ?> 	</td>
-											<td> <?php echo $obj['userId'] ; ?> 	</td>
-											<td>
-												<label >
-													 <?php 
-													 if( $obj['status']=== NULL)
-													 	echo "Not marked" ;
-													 else 
-													 	echo $obj['status'] ;?>
-												</label>
-											</td>
-										</tr>
-										<?php
-										}
-										
-										}
-										catch (Exception $e) {
-										echo $e->getMessage();
-										}
-										?>
-									</tbody>
-								</table>
-							</div>
-
-							</div>
-						</div>
+						
 						</div>
 				</div>
 						
