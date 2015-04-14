@@ -8,9 +8,6 @@ try {
 	# error handling method
 	$dbh->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
-	// print_r($_POST);
-	// die();
-
 	# sth means statement handle
 	# prepared statement
 	$sth = $dbh->prepare("INSERT into attendance (userId,date,status)
@@ -22,16 +19,12 @@ try {
 
 		//For all array elements in $_POST other than date and uidtable (this is id of table)
 		if (strcasecmp($key, "date") !== 0  && strcasecmp($key, "uidtable") !== 0) {
-			
 			$sth->bindParam(':userId',$key,PDO::PARAM_STR); //$key holds userId
 			$sth->bindParam(':status',$value,PDO::PARAM_STR); //$value holds attendance status
-
 			$sth->execute();
 		}
 	}
-	
 	echo "success";
-
 	$dbh = null;
 } catch (Exception $e) {
 	echo $e->getMessage();
