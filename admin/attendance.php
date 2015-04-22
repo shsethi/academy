@@ -152,6 +152,7 @@ header("Location: http://localhost/aceacademy.com/");
 														$sth->bindParam(':centerId',$_POST['centerId'],PDO::PARAM_STR);
 													}
 												}
+												echo $query;
 												$sth->execute();
 												$count=0;
 												while($obj = $sth->fetch()) {

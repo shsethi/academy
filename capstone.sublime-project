@@ -4,10 +4,7 @@
 		{
 			"follow_symlinks": true,
 			"path": "."
-		},
-		{
-			"follow_symlinks": true,
-			"path": "D:\\Capstone\\Capstone2\\bootstrap3-editable-1.5.1"
 		}
+
 	]
 }

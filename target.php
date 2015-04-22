@@ -23,7 +23,7 @@ try {
 	//echo $count;
 	#UserId generated
 	$userId = (string)$_POST['sports'].substr($_POST['yoj'], 2,2).$count;
-	echo $userId;
+	// echo $userId;
 
 	$sth1 = $dbh->prepare("INSERT into registration 
 						(userId,uname,yearOfJoining,gender,dob,image,fname,mname,
@@ -93,6 +93,9 @@ try {
 	$dbh = null;
 
 	echo "Record entered successfully";
+	echo $userId;
+	echo "Your chosen password is: ";
+	echo $_POST['password']; 
 
 } catch (Exception $e) {
 
