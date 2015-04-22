@@ -123,34 +123,47 @@ header("Location: http://localhost/aceacademy.com/");
 														as feesJoin ON registration.userId = feesJoin.userId";
 												$sth = $dbh->prepare($query);
 												$sth->bindParam(':month',$_POST['month'],PDO::PARAM_STR);
+												$sth->execute();
 												//If all was selected then where conditions would not be added
 												if (strcasecmp("all", $_POST['sportsId']) !== 0) {
 												//Concatenate
 													$query = $query . " JOIN stud_sports
 																		ON registration.userId = stud_sports.userId
 																		WHERE sportsId = :sportsId";
-													$sth = $dbh->prepare($query);
+													
 													
 													
 													if (strcasecmp("all", $_POST['centerId']) !== 0) {
 														$query = $query . " AND centerId = :centerId";
 														$sth = $dbh->prepare($query);
+														$sth->bindParam(':sportsId',$_POST['sportsId'],PDO::PARAM_STR);
 														$sth->bindParam(':centerId',$_POST['centerId'],PDO::PARAM_STR);
+														$sth->bindParam(':month',$_POST['month'],PDO::PARAM_STR);
+														$sth->execute();
+													}
+													else{
+														$sth = $dbh->prepare($query);
+														$sth->bindParam(':sportsId',$_POST['sportsId'],PDO::PARAM_STR);
+														$sth->bindParam(':month',$_POST['month'],PDO::PARAM_STR);
+														$sth->execute();
 													}
 
-													$sth->bindParam(':sportsId',$_POST['sportsId'],PDO::PARAM_STR);
+													
 												}
 												else{
 													if (strcasecmp("all", $_POST['centerId']) !== 0) {
 														$query = $query . " WHERE centerId = :centerId";
 														$sth = $dbh->prepare($query);
 														$sth->bindParam(':centerId',$_POST['centerId'],PDO::PARAM_STR);
+														$sth->bindParam(':month',$_POST['month'],PDO::PARAM_STR);
+														$sth->execute();
+
 													}
 												}
-												echo $query;
-												echo $_POST['centerId'];
-												echo $_POST['sportsId'];
-												$sth->execute();
+												// echo $query;
+												// echo $_POST['centerId'];
+												// echo $_POST['sportsId'];
+												
 												$count=0;
 												while($obj = $sth->fetch()) {
 												$count++;
