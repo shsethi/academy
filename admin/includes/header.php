@@ -73,7 +73,7 @@
                                 <a href="feerecordview.php">Fees Record</a>
                             </li>
                             <li>
-                                <a href="feemanager.php"> Fees Enter</a>
+                                <a href="feesmanager.php"> Fees Enter</a>
                             </li>
                         </ul>
                     </li>
