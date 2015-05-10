@@ -42,7 +42,7 @@ header("Location: http://localhost/aceacademy.com/");
 									<label for="date" class="col-lg-2 control-label">Date</label>
 									<div class="col-lg-6">
 										<input type="date" id= "datepicker" class="form-control" name="date"
-										value="<?php if(isset ($_POST['date'])) echo$_POST['date']; else echo date("Y-m-d"); ?>">
+										value="<?php if(isset ($_POST['date'])) echo $_POST['date']; else echo date("Y-m-d"); ?>">
 										<!-- <input type="text" class="form-control" id="datepicker"> -->
 									</div>
 								</div>
@@ -79,12 +79,13 @@ header("Location: http://localhost/aceacademy.com/");
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3">
-								<input class="btn btn-primary" type="submit" value="Go">
-							</div>
+							<br>
+						<div class="row" align="center">
+							<input class="btn btn-primary" type="submit" value="Submit">
+						</div>
+						<hr>
 						</form>
 					</div>
-					<hr>
 					<!-- Attendance Table -->
 					
 					<div class="alert" style="display:none">

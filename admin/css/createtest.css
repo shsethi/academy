@@ -1,0 +1,23 @@
+#addBtn {
+	background-color:#ededed;
+	-moz-border-radius:19px;
+	-webkit-border-radius:19px;
+	border-radius:19px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+#addBtn:hover {
+	background-color:#7B807C;
+	color:#ffffff;
+}
+#addBtn:active {
+	position:relative;
+	top:1px;
+}

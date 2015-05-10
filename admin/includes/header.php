@@ -6,7 +6,8 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="../css/sticky-footer-navbar.css">
-  <link href="css/admin.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">   
+   <link rel="stylesheet" href="css/admin.css">
 
 <!--  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -46,7 +47,8 @@
 </nav> -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-header">
-              <!-- <a class="navbar-brand" href="#">Ace Academy</a> -->
+              <!-- <a class="navbar-brand" href="#"></a> -->
+              <!-- <p> Ace Academy </p> -->
            </div>
 
              <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -76,6 +78,9 @@
                                 <a href="feesmanager.php"> Fees Enter</a>
                             </li>
                         </ul>
+                    </li>
+                     <li>
+                        <a href="designTest.php"><i class=" fa fa-fw fa-pencil-square-o"></i> Design Test</a>
                     </li>
                     <li>
                         <a href="blank.php"><i class="fa fa-fw fa-file"></i> Blank Page</a>

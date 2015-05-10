@@ -8,6 +8,7 @@ header("Location: http://localhost/aceacademy.com/");
 ?>
 <?php include('/includes/header.php') ?>
 <link rel="stylesheet" href="bootstrap-combobox-master/bootstrap-combobox.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/feespage.css" media="print" /> -->
 <title>Ace Academy</title>
 <link rel="stylesheet" href=" ../includes/DataTables-1.10.5/media/css/jquery.dataTables.min.css">
 <body>
@@ -90,15 +91,19 @@ header("Location: http://localhost/aceacademy.com/");
 								</div>
 							</div>
 						</div>
-						<hr>
-						<div class="col-lg-3">
+						<br>
+						<div class="row" align="center">
 							<input class="btn btn-primary" type="submit" value="Submit">
 						</div>
+						<hr>
+						
 					</form>
 						<!-- Fees Record Table -->
-						<h3>Fees Record</h3>
 						<div class="span7 offset2">
+							<h3 align="center">Fees Record</h3>
 							<div class="form-group">
+							
+							<div id="printdata">
 								<div class="table-responsive">
 									<table id="uidtable" class="table table-striped table-bordered dataTable no-footer" border="1">
 										
@@ -187,12 +192,18 @@ header("Location: http://localhost/aceacademy.com/");
 										</tbody>
 									</table>
 								</div>
-				
+							</div>
+							<button class="btn btn-info" onClick="printThis('uidtable')">Print View</button>
 							</div>
 						</div>
 					
 				</div>
 			</div>
+
+
+        </div>
+</div>
+       
 			<script src="../js/jquery.min.js"></script>
 			<script src="../js/bootstrap.min.js"></script>
 			<script src="../includes/DataTables-1.10.5/media/js/jquery.dataTables.js"></script>
@@ -200,6 +211,36 @@ header("Location: http://localhost/aceacademy.com/");
 			$(document).ready(function () {
 				$("#uidtable").DataTable(); //initializing Datatable plugin
 			});
+
+			function printThis(id){
+    			// var originalContents = document.body.innerHTML;
+
+				var printContents = document.getElementById(id).innerHTML;
+
+				//fetching  maont sports center value to pass on to print page
+				var month = $( "select[name='month']").val();
+				var centerId = $( "select[name='centerId']").val();
+				var center = $( "select[name='centerId'] option[value="+  centerId+ "]").text();
+
+				var sportsId = $( "select[name='sportsId']").val();
+				var sports = $( "select[name='centerId'] option[value="+  sportsId+ "]").text();
+				// console.log( month+  sports +center);
+
+     			var display_setting="toolbar=yes,menubar=yes,"; 
+				display_setting+="scrollbars=yes,width=650, height=600, left=100, top=25"; 
+				var printpage=window.open("","",display_setting); 
+				printpage.document.open(); 
+				printpage.document.write('<html><head><title>Print Page</title></head>'); //onLoad="self.print()"
+
+				printpage.document.write('<h1 align="center">Fee Record</h1>');
+				printpage.document.write('<label><b>MONTH</b></label>:'+ month 	+' <label><b>SPORT</b></label> :'+ sports+' <label><b>CENTRE</b></label>:'+ center);
+				printpage.document.write('<body align="center"><table border="1">'+ printContents +'</table>');
+				printpage.document.write('<br><button onclick="window.print()">Print</button>	</body></html>'); 
+				printpage.document.close(); 
+				printpage.focus();
+
+			}
+
 			</script>
-		</body>
+</body>
 		<?php include('/includes/footer.php'); ?>
