@@ -7,7 +7,8 @@
       <div class="col-md-4">
         <section class="login-form">
           <form id="loginform" action="loginChk.php" role="login" method="post">
-            <img src='img/logodefault.png' class="img-responsive" alt="logo" />
+            <!-- <img src='img/logodefault.png' class="img-responsive" alt="logo" /> -->
+            <img src='img/logo.jpg' class="img-responsive" alt="logo" />
             
             
             <input type="text"  data-toggle="popover" data-placement="right" data-content="Required"
@@ -20,11 +21,11 @@
             <button id="login" type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
             
             <div>
-              <a href="#">Register</a> or
+              <a href="registration.php">Register</a> or
               <a href="#">reset password</a> </div>
             </form>
             <div class="form-links">
-              <a href="#">www.aceacademy.com</a> </div>
+              <a href=".">www.aceacademy.com</a> </div>
             </section>
           </div>
           <!-- <div class="col-md-4"></div> </div>  -->

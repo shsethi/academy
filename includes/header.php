@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/news.css">
 
   <script src="js/jquery.min.js"></script>
-<script src="js/jquery.bootstrap.newsbox.js" type="text/javascript"></script>
+<script src="js/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
 
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">

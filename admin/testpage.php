@@ -53,7 +53,7 @@ header("Location: http://localhost/aceacademy.com/");
 									// print_r($value);
 									foreach ($value as $k => $v) {
 										
-										echo "<th>".$v['paraname']."(".$v['ftype'].")"."</th>";
+										echo "<th>".$v['paraname']."</th>";
 										// echo "<td>".$v['type']."</td>";
 										
 									}
