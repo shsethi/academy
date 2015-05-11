@@ -53,6 +53,16 @@ header("Location: http://localhost/aceacademy.com/");
 					$obj = $sth->fetch();
 ?>
 <link href="includes/bootstrap3-editable-1.5.1/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet">
+<style>
+      #holder { border: 5px dashed #ccc; width: 300px; min-height: 300px; margin: 20px auto;}
+      #holder.hover { border: 10px dashed #0c0; }
+      #holder img { display: block; margin: 10px auto; }
+      #holder p { margin: 10px; font-size: 14px; }
+      progress { width: 100%; }
+      progress:after { content: '%'; }
+      .fail { background: #c00; padding: 2px; color: #fff; }
+      .hidden { display: none !important;}
+      </style>
 <title>Profile Page</title>
 <body>
 	
@@ -63,11 +73,33 @@ header("Location: http://localhost/aceacademy.com/");
 			<!-- left column -->
 			<div id = "sidebar-left" class = "col-lg-4 col-sm-1">
 				<!-- <h1 class=""><?php echo $obj->uname; ?>'s Profile</h1> -->
-				<div class="text-center">
+				<article>
+					<div id="holder">
+						<img src="img/anonymous-user.png" id="defaultpic" alt="avatar" style="height:280px; width: 280px;">
+					</div>
+					<p id="upload" class="hidden">
+						<label>Drag & drop not supported, but you can still upload via this input field:
+							<br>
+							<input type="file">
+						</label>
+					</p>
+					<p id="filereader">File API & FileReader API not supported
+					</p>
+					<p id="formdata">XHR2's FormData is not supported
+					</p>
+					<p id="progress">XHR2's upload progress isn't supported
+					</p>
+					<p>
+						<progress id="uploadprogress" min="0" max="100" value="0" style="display:none">0
+						</progress>
+					</p>
+					
+				</article>
+				<!-- <div class="text-center">
 					<img src="img/default.jpg" class="avatar img-circle" alt="avatar">
 					<h6 style="display: none" class="">Upload a photo...</h6>
 					<input style="display: none" class="form-control" type="file">
-				</div>
+				</div> -->
 			</div>
 			<!-- right column -->
 			<div id = "sidebar-right" class = "col-lg-8 col-sm-11">
@@ -80,7 +112,7 @@ header("Location: http://localhost/aceacademy.com/");
 					<ul class="nav nav-tabs" id="myTab">
 						<li class="active"><a data-toggle="tab" href="#perinfo">Personal Info</a></li>
 						<li><a data-toggle="tab" href="#physicalstats">Physical Stats</a></li>
-						<li><a data-toggle="tab" href="#photos">Photos</a></li>
+						<li><a data-toggle="tab" href="#perstats">Performance Stats</a></li>
 					</ul>
 					
 					<div class="tab-content">
@@ -106,7 +138,7 @@ header("Location: http://localhost/aceacademy.com/");
 											<td> <a id="dob">	<?php echo $obj->dob; ?></a></td>
 										</tr>
 										<!-- <td>
-											<span class="glyphicon glyphicon-pencil" ></span>
+												<span class="glyphicon glyphicon-pencil" ></span>
 										</td> -->
 										<tr>
 											<td>Father's Name</td>
@@ -144,29 +176,29 @@ header("Location: http://localhost/aceacademy.com/");
 											<td>Timings</td>
 											<td> <a id="timings"> 	<?php echo $obj->timings; ?> </a></td>
 										</tr>
-									<!-- <td>	<?php //echo $obj->image; ?></td> -->
-								    </tbody>
+										<!-- <td>	<?php //echo $obj->image; ?></td> -->
+									</tbody>
 								</table>
 							</div>
 						</div>
-					<div class="tab-pane" id="physicalstats">
+						<div class="tab-pane" id="physicalstats">
 							<div class="tab-pane" id="perinfo">
-							<div class="row">
-								<table class="table table-bordered table-striped">
-									<tbody>
-										<tr>
-											<td >UserId
+								<div class="row">
+									<table class="table table-bordered table-striped">
+										<tbody>
+											<tr>
+												<td >UserId
+												</td>
+												<td > 	<?php echo $obj->userId; ?> </td>
+											</tr>
+											
+											<tr>
+												<td>Weight</td>
+												<td> <a id="weight">	<?php echo $obj->weight; ?> </a>kg
 											</td>
-											<td > 	<?php echo $obj->userId; ?> </td>
-										</tr>
-										
-										<tr>
-											<td>Weight</td>
-											<td> <a id="weight">	<?php echo $obj->weight; ?> </a>kg
-										</td>
-										<!-- <td>
-											<span class="glyphicon glyphicon-pencil" ></span>
-										</td> -->
+											<!-- <td>
+													<span class="glyphicon glyphicon-pencil" ></span>
+											</td> -->
 										</tr>
 										<tr>
 											<td>Height</td>
@@ -176,51 +208,54 @@ header("Location: http://localhost/aceacademy.com/");
 											<td>BMI</td>
 											<td> <span id="bmi">	<?php echo round($obj->weight/pow(($obj->height/100),2),2) ; ?> </span></td>
 										</tr>
-
-
-									<!-- <td>	<?php //echo $obj->image; ?></td> -->
-								    </tbody>
+										<!-- <td>	<?php //echo $obj->image; ?></td> -->
+									</tbody>
 								</table>
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane" id="photos">
+					<div class="tab-pane" id="perstats">
 						<div class="row">
 							<table class="table table-bordered table-striped">
 								<tr>
-									<td>Height Weight</td>
+									<td>Matches Played</td>
+									<td>12</td>
 								</tr>
-									<tr>
-									<td>Height Weight</td>
+								<tr>
+									<td>Won</td>
+									<td>9</td>
 								</tr><tr>
-									<td>Height Weight</td>
-								</tr><tr>
-									<td>Height Weight</td>
-								</tr>
-								</tr>
-							</table>
-						</div>
-					</div>
-				</div>
+								<td>Lost</td>
+								<td>3</td>
+							</tr><tr>
+							<td>Rank</td>
+							<td>3</td>
+						</tr>
+					</tr>
+				</table>
 			</div>
 		</div>
-		<?php  $dbh=null;
-		
-		} catch (Exception $e) {
-		echo "ERROR: ".$e->getMessage();
-		}
-		?>
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="includes/bootstrap3-editable-1.5.1/bootstrap3-editable/js/bootstrap-editable.js"></script>
-		<script src="js/studentrights.js" ></script>
-		
-		<?php 
-		//this js gives extra editing rights to admin
-			if (($_SESSION['utype'])=='admin') {
-			
-			echo"<script src=\"js/adminrights.js\" ></script>" ;
-			}
-		?>
-	</body>
-	<?php include('/includes/footer.php'); ?>
+	</div>
+</div>
+</div>
+<?php  $dbh=null;
+
+} catch (Exception $e) {
+echo "ERROR: ".$e->getMessage();
+}
+?>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="includes/bootstrap3-editable-1.5.1/bootstrap3-editable/js/bootstrap-editable.js"></script>
+<script src="js/studentrights.js" ></script>
+<script src="js/uploadfile.js" ></script>
+
+<?php
+//this js gives extra editing rights to admin
+	if (($_SESSION['utype'])=='admin') {
+	
+echo"<script src=\"js/adminrights.js\" ></script>" ;
+}
+?>
+</body>
+<?php include('/includes/footer.php'); ?>

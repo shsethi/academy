@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/sticky-footer-navbar.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../css/bootstrap-theme.min.css"> -->
+    <!-- <link rel="stylesheet" href="../css/sticky-footer-navbar.css"> -->
     <link href="css/print.css" rel="stylesheet" type="text/css" media="print">
     </head>
   <body>
@@ -15,7 +15,7 @@
       <table class="table">
         <thead>
           <tr>
-            <th><img src="img/logo.jpg" width="50%"/></th>
+            <th><img src="../img/logo.jpg" width="50%"/></th>
             <th><h1> ACE ACADEMY </h1></th>
             <th><h4>Contact : 9417944942</h4></th>
           </tr>
@@ -23,7 +23,7 @@
         </table>      
       
             </br>
-            <table class="table">
+       <table class="table">
         <thead>
           <tr>
             <th><b>Name</b></th>
@@ -75,58 +75,34 @@
         <tbody>
           <tr>
             <td>1</td>
-            <td>John</td>
-            <td>Carter</td>
+            <td>Stamina</td>
+            <td>Level 3</td>
             
           </tr>
           <tr>
             <td>2</td>
-            <td>Peter</td>
-            <td>Parker</td>
+            <td>Strength</td>
+            <td>Level 5</td>
             
           </tr>
           <tr>
             <td>3</td>
-            <td>John</td>
-            <td>Rambo</td>
+            <td>Run-time</td>
+            <td>15 sec</td>
             
           </tr>
           <tr>
             <td>3</td>
-            <td>John</td>
-            <td>Rambo</td>
-            
+            <td>Weight Lift</td>
+            <td> 45 kg</td>            
           </tr>
+         
           <tr>
             <td>3</td>
-            <td>John</td>
-            <td>Rambo</td>
-            
+            <td>Bleep test</td>
+            <td> Level 9</td>            
           </tr>
-         <tr>
-            <td>3</td>
-            <td>John</td>
-            <td>Rambo</td>
-            
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>John</td>
-            <td>Rambo</td>
-            
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>John</td>
-            <td>Rambo</td>
-            
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>John</td>
-            <td>Rambo</td>
-            
-          </tr>
+
         </tbody>
       </table>
 

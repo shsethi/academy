@@ -17,7 +17,7 @@ header("Location: http://localhost/aceacademy.com/");
 				<div class="col-lg-12">
 					<h1 class="page-header">
 					Attendance
-					<!-- <small>mark attendance</small> -->
+					<small>manage attendance records</small>
 					</h1>
 					<ol class="breadcrumb">
 						<li>

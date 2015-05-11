@@ -1,5 +1,7 @@
 <?php include('/includes/header.php') ?>
 <title>Ace Academy</title>
+
+
 <body>
 <div class="container">
 
@@ -39,9 +41,25 @@
 	</div>
 
 	<div class="col-md-4">
-			<img src="img/academy_pics/smthn.jpg" width="100%"/><br/><br/>
-	</div>
+			
+<div class="panel panel-default">
+<div class="panel-heading"> <span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
+<div class="panel-body">
+<div class="row">
+<div class="col-xs-12">
+<ul class="demo2">
+<li class="news-item">Upcoming tournaments <a href="#">Read more...</a></li>
+<li class="news-item">Monday's timetable<a href="#">Read more...</a></li>
+<li class="news-item">Result of badminton matches held last month<a href="#">Read more...</a></li>
+<li class="news-item">Result of badminton matches held last month<a href="#">Read more...</a></li>
 
+</ul>
+</div>
+</div>
+</div>
+<div class="panel-footer"> </div>
+</div>
+</div>
 	<div class="col-md-4">
 		<div class="well">
 			<h3>Welcome!</h3><br/>
@@ -108,5 +126,24 @@
  <script src="js/bootstrap.min.js"></script>
  <!-- // <script src="js/bootstrap-carousel.js"></script> -->
  <script src="js/application.js"></script>
+
+ <script type="text/javascript">
+    $(function () {
+    	
+        $(".demo2").bootstrapNews({
+            newsPerPage: 3,
+            autoplay: true,
+			pauseOnHover:true,
+            direction: 'up',
+            newsTickerInterval: 4000,
+            onToDo: function () {
+                //console.log(this);
+            }
+        });
+		
+		
+    });
+</script>
+
 </body>
 <?php include('/includes/footer.php'); ?>

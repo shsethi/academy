@@ -46,10 +46,10 @@
   </div>
 </nav> -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="navbar-header">
-              <!-- <a class="navbar-brand" href="#"></a> -->
-              <!-- <p> Ace Academy </p> -->
-           </div>
+           <span class="navbar-header" style="height: 5px">
+              <a class="navbar-brand" href="#"> Ace Academy </a>
+              <!-- <p>  </p> -->
+           </span> 
 
              <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
@@ -57,12 +57,13 @@
                         <a href="index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
+                        <a href="studmanager.php" class="active"><i class="fa fa-user fa-fw"></i> Student Manager</a>
+                    </li>
+                    
+                    <li>
                         <a href="attendance.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Attendance</a>
                     </li>
 
-                    <li>
-                        <a href="studmanager.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Student Manager</a>
-                    </li>
                     
         <!--             <li>
                         <a href="feesmanager.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Fees Manager</a>
@@ -85,9 +86,7 @@
                     <li>
                         <a href="blank.php"><i class="fa fa-fw fa-file"></i> Blank Page</a>
                     </li>
-                    <li>
-                        <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
-                    </li>
+           
                 </ul>
             </div>
 

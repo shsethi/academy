@@ -25,7 +25,7 @@ header("Location: http://localhost/aceacademy.com/");
 							<i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
 						</li>
 						<li class="active">
-							<i class="fa fa-table"></i> Fees Manager
+							<i class="fa fa-money"></i> Fees Manager
 						</li>
 					</ol>
 				</div>

@@ -24,7 +24,7 @@ header("Location: http://localhost/aceacademy.com/");
 							<i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
 						</li>
 						<li class="active">
-							<i class="fa fa-table"></i> Design
+							<i class="fa fa-pencil-square-o"></i> Design
 						</li>
 					</ol>
 				</div>
@@ -51,7 +51,7 @@ header("Location: http://localhost/aceacademy.com/");
 									<label for="Center" class="col-lg-2 control-label">Center</label>
 									<div class="col-lg-6">
 										<select class="form-control" name= "centerId">
-											<option value="all">All</option>
+											<!-- <option value="all">All</option> -->
 											<option value="01">Sarabha Nagar</option>
 											<option value="02">Khalsa College</option>
 											<option value="03">BCM college</option>
@@ -74,6 +74,21 @@ header("Location: http://localhost/aceacademy.com/");
 											<option value="MA">Martial Arts</option>
 											<option value="TT">Table Tennis</option>
 											<option value="LT">Tennis</option>
+										</select>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="form-group">
+									<label for="Type" class="col-lg-2 control-label">Type</label>
+									<div class="col-lg-6">
+										<select class="form-control" name= "type" >
+											<!-- <option value="all">All</option> -->
+											<option value="Physical">Physical</option>
+											<option value="Agility">Agility</option>
+											<option value="Customised">Customised</option>
+											
 										</select>
 									</div>
 								</div>

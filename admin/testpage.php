@@ -31,6 +31,11 @@ header("Location: http://localhost/aceacademy.com/");
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
+
+				<div class="row">
+						<!-- <div class="col-md-3-offset-4" > -->
+						<h3 align = "center"><?php echo $_POST['type'] ?> Test</h3>
+				</div>
 					
 					<div class="span5">
 						<form role="form" id="form4" name="form4" method="post" action="#" >
@@ -45,10 +50,10 @@ header("Location: http://localhost/aceacademy.com/");
 								// print_r($_POST);
 								$value = $_POST['field'];
 								$no_of_params = count($value);
-								// print_r($value);
+									// print_r($value);
 									foreach ($value as $k => $v) {
 										
-										echo "<th>".$v['paraname']."(".$v['type'].")"."</th>";
+										echo "<th>".$v['paraname']."(".$v['ftype'].")"."</th>";
 										// echo "<td>".$v['type']."</td>";
 										
 									}
@@ -109,8 +114,12 @@ header("Location: http://localhost/aceacademy.com/");
 					<!-- 		<div class="row" align="center">
 								<input class="btn btn-primary" type="submit" value="Submit">
 							</div> -->
+					
 							<hr>
 						</form>
+					</div>
+							<button id="myButton" class="btn btn-info">Print</button>
+					</div>
 					</div>
 				</div>
 				<!-- Main Content -->
@@ -127,10 +136,19 @@ header("Location: http://localhost/aceacademy.com/");
 		$('.printButton').on('click', function() { 
 		  	var row = $(this).parent().parent();    
 		  	row.find('td').each (function() {
+
+
 		  		console.log(this);	    
 			}); 	
 
 		  });
+
+	 $("#myButton").on('click', function () {
+        location.href = "http://localhost/aceacademy.com/admin/testreport.php";
+    	});
+
+			
+
 
 	});
 	</script>

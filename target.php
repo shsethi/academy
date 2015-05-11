@@ -1,3 +1,8 @@
+<?php include('/includes/header.php') ?>
+<title>Registration Page</title>
+<body>
+
+<div class="panel">
 <?php
 require 'config.php';
 
@@ -92,10 +97,10 @@ try {
 	# close connection
 	$dbh = null;
 
-	echo "Record entered successfully";
-	echo $userId;
-	echo "Your chosen password is: ";
+	echo "<p> Registration Successful UID:".$userId."</p>";
+	echo "<p> Your chosen password is: ";
 	echo $_POST['password']; 
+	echo "</p>";
 
 } catch (Exception $e) {
 
@@ -104,3 +109,6 @@ try {
 }
 
 ?>
+</div>
+</body>
+<?php include('/includes/footer.php') ?>

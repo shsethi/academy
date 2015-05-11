@@ -25,21 +25,32 @@ header("Location: http://localhost/aceacademy.com/");
 							<i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
 						</li>
 						<li class="active">
-							<i class="fa fa-table"></i> Create Test
+							<i class="fa fa-pencil-square-o"></i> Design Test
+						</li>
+							<li class="active">
+							<i class="fa fa-pencil-square-o"></i> Create Test
 						</li>
 					</ol>
 				</div>
 			</div>
 			<div class="row">
 			
-				<div class="col-lg-12">			
+				<div class="col-lg-12">	
+
+					<div class="row">
+						<!-- <div class="col-md-3-offset-4" > -->
+						<h3 align = "center"><?php echo $_POST['type'] ?> Test</h3>
+						<button id ="addBtn" class="addButton">+ Add Category</button>							
+
+						<!-- </div> -->
+					</div>		
 							
 					<div class="row">
 						<form class="form-inline" id="form3" name="form3" method="post" action="testpage.php">
 							
-							<div class="col-md-3-offset-4" >
+						<!-- 	<div class="col-md-3-offset-4" >
 								<button id ="addBtn" class="addButton">+ Add Category</button>							
-							</div>
+							</div> -->
 							<div id="parameter0" class="parameter-row" align="center">
 								<div class="form-group">
 									<label >Name</label>  
@@ -47,12 +58,12 @@ header("Location: http://localhost/aceacademy.com/");
 		  						</div>
 
 		  						<div class="form-group">
-		  							<label >Type</label>  
+		  							<label>Type</label>  
 		  							<label class="radio-inline">
-									<input type="radio" name="field[0][type]"  value="level"> level
+									<input type="radio" name="field[0][ftype]"  value="level"> level
 									</label>
 									<label class="radio-inline">
-									<input type="radio" name="field[0][type]"  value="units"> units
+									<input type="radio" name="field[0][ftype]"  value="units"> units
 									</label>
 		  						</div>
 
@@ -85,6 +96,8 @@ header("Location: http://localhost/aceacademy.com/");
  							<input type="hidden" name="date" value= "<?php echo $_POST['date']; ?>"	>
  							<input type="hidden" name="centerId" value="<?php echo $_POST['centerId']; ?>"	>
  							<input type="hidden" name="sportsId" value= "<?php echo $_POST['sportsId']; ?>"	>
+ 							<input type="hidden" name="type" value= "<?php echo $_POST['type'] ?>"	>
+
 							
 						</form>	
 
@@ -97,10 +110,10 @@ header("Location: http://localhost/aceacademy.com/");
 		  						<div class="form-group">
 		  							<label >Type</label>  
 		  							<label class="radio-inline">
-									<input type="radio" name="type"  value="level"> level
+									<input type="radio" name="ftype"  value="level"> level
 									</label>
 									<label class="radio-inline">
-									<input type="radio" name="type"  value="units"> units
+									<input type="radio" name="ftype"  value="units"> units
 									</label>
 		  						</div>
 
@@ -111,6 +124,7 @@ header("Location: http://localhost/aceacademy.com/");
 			                 				 <option value="feet">feet</option>
 			                 				 <option value="sec">sec</option>
 			                 				 <option value="min">min</option>
+			                 				 <option value="%age">%age</option>
 				                 		</select>
 		  						</div>
 									
@@ -153,12 +167,12 @@ header("Location: http://localhost/aceacademy.com/");
                                 
 
               $clone
-                .find('[name="type"]').attr('name', 'field[' + pindex + '][type]').end()
+                .find('[name="ftype"]').attr('name', 'field[' + pindex + '][ftype]').end()
                 .find('[name="units"]').attr('name', 'field[' + pindex + '][units]').end()
                 .find('[name="paraname"]').attr('name', 'field[' + pindex + '][paraname]').end()
                 .insertBefore($holder);
 
-				console.log($clone);
+				// console.log($clone);
 			})
 
 

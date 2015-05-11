@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  
+  <link href="css/site.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/sticky-footer-navbar.css">
-  
+  <link rel="stylesheet" href="css/news.css">
 
+  <script src="js/jquery.min.js"></script>
+<script src="js/jquery.bootstrap.newsbox.js" type="text/javascript"></script>
 
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -20,16 +22,17 @@
         <li class="dropdown">
               <a data-toggle="dropdown" class="dropdown-toggle" href="#">Games<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Tennis</a></li>
-                <li><a href="#">Badminton</a></li>
-                <li><a href="#">Football</a></li>
-                <li><a href="#">Cricket</a></li>
-                <li><a href="#">Martial Arts</a></li>
-                <li><a href="#">Squash</a></li>
-                <li><a href="#">Table Tennis</a></li>
+                <li><a href="tennis.php">Tennis</a></li>
+                <li><a href="badminton.php">Badminton</a></li>
+                <li><a href="football.php">Football</a></li>
+                <li><a href="cricket.php">Cricket</a></li>
+                <li><a href="martialarts.php">Martial Arts</a></li>
+                
+                <li><a href="tabletennis.php">Table Tennis</a></li>
               </ul>
             </li>
         <li><a href="aboutUs.php">About Us</a></li>
+        <li><a href="commonsports.php">Sports</a></li>
         <li><a href="feedback.php">Feedback</a></li>
         <li><a href="contactUs.php">Contact Us</a></li>
       </ul>
